@@ -1,20 +1,32 @@
 {
+    "Theo Hern\u00e1ndez": [
+        1,
+        1
+    ],
     "Trent Alexander-Arnold": [
-        3,
-        18,
+        1,
+        6,
         [
-            1.0,
-            6.0,
-            3
+            1,
+            6,
+            1
         ]
     ],
     "Virgil van Dijk": [
         0,
         0,
         [
-            0.0,
-            0.0,
-            3
+            0,
+            0,
+            1
         ]
+    ],
+    "Weston McKennie": [
+        1,
+        1
+    ],
+    "Zlatan Ibrahimovi\u0107": [
+        6,
+        14
     ]
 }

@@ -1,23 +1,13 @@
 {
+    "Adrien Rabiot": [
+        2,
+        2
+    ],
+    "Alessio Cragno": [
+        0,
+        0
+    ],
     "Alisson Becker": [
-        0,
-        0,
-        [
-            0.0,
-            0.0,
-            3
-        ]
-    ],
-    "Andrew Robertson": [
-        0,
-        6,
-        [
-            0.0,
-            2.0,
-            3
-        ]
-    ],
-    "David Shaw": [
         0,
         0,
         [
@@ -26,40 +16,77 @@
             1
         ]
     ],
-    "David de Gea": [
-        10,
+    "Andrew Robertson": [
         0,
+        2,
         [
-            3.33,
-            0.0,
-            3
+            0,
+            2,
+            1
         ]
     ],
-    "Donny van de Beek": [
+    "Ante Rebi\u0107": [
+        0,
+        0
+    ],
+    "Cristiano Ronaldo": [
         12,
-        3,
+        3
+    ],
+    "David de Gea": [
+        0,
+        0,
         [
-            4.0,
-            1.0,
-            3
+            0,
+            0,
+            1
         ]
+    ],
+    "Dejan Kulusevski": [
+        6,
+        3
+    ],
+    "Donny van de Beek": [
+        4,
+        1,
+        [
+            4,
+            1,
+            1
+        ]
+    ],
+    "Duv\u00e1n Zapata": [
+        0,
+        0
+    ],
+    "Federico Chiesa": [
+        6,
+        1
+    ],
+    "Franck Kessi\u00e9": [
+        0,
+        0
     ],
     "Gabriel": [
         0,
         0,
         [
-            0.0,
-            0.0,
-            3
+            0,
+            0,
+            1
         ]
     ],
     "Gabriel Jesus": [
-        12,
-        18,
+        4,
+        6,
         [
-            4.0,
-            6.0,
-            3
+            4,
+            6,
+            1
         ]
+    ],
+    "Giorgio Chiellini": [
+        0,
+        0
     ]
 }
