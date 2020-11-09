@@ -68,28 +68,28 @@ def match_player(total_player_name, analysis_player_name):
 
 
 def player_analysis(player_name, dict):
-    print("\n"+player_name.upper())
-    print("App:", dict[player_name][2][2])
-    print("Goals:", dict[player_name][0])
-    print("Assists:", dict[player_name][1])
-    print("Avg Goals:", dict[player_name][2][0])
-    print("Avg Assists:", dict[player_name][2][1])
+    print("\n"+player_name)
+    print("App:".title(), dict[player_name][2][2])
+    print("Goals:".title(), dict[player_name][0])
+    print("Assists:".title(), dict[player_name][1])
+    print("Avg Goals:".title(), dict[player_name][2][0])
+    print("Avg Assists:".title(), dict[player_name][2][1])
 
 
 def player_comparison(player1, player1_dict, player2, player2_dict):
-    print("\n"+"\u0332".join("App "))
+    print("\nApp".title())
     print(player1+":", player1_dict[player1][2][2])
     print(player2+":", player2_dict[player2][2][2])
-    print("\n"+"\u0332".join("Goals "))
+    print("\nGoals".title())
     print(player1+":", player1_dict[player1][0])
     print(player2+":", player2_dict[player2][0])
-    print("\n"+"\u0332".join("Assists "))
+    print("\nAssists".title())
     print(player1+":", player1_dict[player1][1])
     print(player2+":", player2_dict[player2][1])
-    print("\n"+"\u0332".join("Avg Goals "))
+    print("\nAvg Goals".title())
     print(player1+":", player1_dict[player1][2][0])
     print(player2+":", player2_dict[player2][2][0])
-    print("\n"+"\u0332".join("Avg Assists "))
+    print("\nAvg Assists".title())
     print(player1+":", player1_dict[player1][2][1])
     print(player2+":", player2_dict[player2][2][1])
 
@@ -141,16 +141,16 @@ if __name__ == "__main__":
 
     if int(task) == 1:
         analysis_player_name = input(
-            "\nName of the player to analyse: ").title().strip()
+            "\nPlayer to analyse: ").title().strip()
         dict_name, analysis_player_name = match_player(
             total_player_name, analysis_player_name)
         player_analysis(analysis_player_name, dict_name)
 
     elif int(task) == 2:
-        compare_player1 = input("\nName of the player #1: ").title().strip()
+        compare_player1 = input("\nPlayer #1: ").title().strip()
         dict_name1, compare_player1 = match_player(
             total_player_name, compare_player1)
-        compare_player2 = input("\nName of the player #2: ").title().strip()
+        compare_player2 = input("\nPlayer #2: ").title().strip()
         dict_name2, compare_player2 = match_player(
             total_player_name, compare_player2)
         player_comparison(compare_player1, dict_name1,
