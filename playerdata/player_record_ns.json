@@ -10,11 +10,21 @@
     ],
     "Paulo Dybala": [
         0,
-        2
+        2,
+        [
+            0,
+            2,
+            1
+        ]
     ],
     "Pierluigi Gollini": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Raheem Sterling": [
         1,
@@ -45,7 +55,12 @@
     ],
     "Sergej Milinkovi\u0107-Savi\u0107": [
         1,
-        4
+        4,
+        [
+            1,
+            4,
+            1
+        ]
     ],
     "Sol Campbell": [
         2,

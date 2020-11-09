@@ -1,11 +1,21 @@
 {
     "Adrien Rabiot": [
         2,
-        2
+        2,
+        [
+            2,
+            2,
+            1
+        ]
     ],
     "Alessio Cragno": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Alisson Becker": [
         0,
@@ -27,11 +37,21 @@
     ],
     "Ante Rebi\u0107": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Cristiano Ronaldo": [
         12,
-        3
+        3,
+        [
+            12,
+            3,
+            1
+        ]
     ],
     "David de Gea": [
         0,
@@ -44,7 +64,12 @@
     ],
     "Dejan Kulusevski": [
         6,
-        3
+        3,
+        [
+            6,
+            3,
+            1
+        ]
     ],
     "Donny van de Beek": [
         4,
@@ -57,15 +82,30 @@
     ],
     "Duv\u00e1n Zapata": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Federico Chiesa": [
         6,
-        1
+        1,
+        [
+            6,
+            1,
+            1
+        ]
     ],
     "Franck Kessi\u00e9": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Gabriel": [
         0,
@@ -87,6 +127,11 @@
     ],
     "Giorgio Chiellini": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ]
 }

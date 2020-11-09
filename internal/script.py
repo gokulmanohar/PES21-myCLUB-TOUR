@@ -152,7 +152,7 @@ def record_player_stats(list_element, player_dict, alph):
                 GlobalVariables.TZ_PlayerDataDict.update(val_updated)
         else:
             remaining_lists_dict = {list_element[0]: [
-                list_element[1], list_element[2]]}
+                list_element[1], list_element[2], [list_element[1], list_element[2], 1]]}
             if alph == "AG":
                 GlobalVariables.AG_PlayerDataDict.update(remaining_lists_dict)
             elif alph == "HM":

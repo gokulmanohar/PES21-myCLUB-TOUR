@@ -28,15 +28,30 @@
     ],
     "Juan Cuadrado": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Kalidou Koulibaly": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Lorenzo Insigne": [
         0,
-        0
+        0,
+        [
+            0,
+            0,
+            1
+        ]
     ],
     "Marcus Rashford": [
         1,
@@ -49,7 +64,12 @@
     ],
     "Mario Pa\u0161ali\u0107": [
         1,
-        1
+        1,
+        [
+            1,
+            1,
+            1
+        ]
     ],
     "Mason Greenwood": [
         6,
@@ -71,7 +91,12 @@
     ],
     "Matthijs de Ligt": [
         1,
-        0
+        0,
+        [
+            1,
+            0,
+            1
+        ]
     ],
     "Mohamed Salah": [
         3,
