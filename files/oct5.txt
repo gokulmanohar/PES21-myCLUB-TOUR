@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+David de Gea	0	0
+Trent Alexander-Arnold	1	6
+Sol Campbell	2	0
+Virgil van Dijk	0	0
+Andrew Robertson	0	2
+Mateo Kovačić	0	2
+Paul Scholes	2	2
+Donny van de Beek	4	1
+Mohamed Salah	3	0
+Gabriel Jesus	4	6
+Marcus Rashford	1	0
+Alisson Becker	0	0
+Gabriel	0	0
+Scott McTominay	3	1
+Hakim Ziyech	0	0
+Jack Grealish	1	1
+Mason Greenwood	6	2
+Jamie Vardy	1	1
+Raúl Jiménez	1	0
+Raheem Sterling	1	1

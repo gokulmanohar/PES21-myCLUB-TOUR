@@ -1,0 +1,2 @@
+Virgil van Dijk	0	1	0.65
+Weston McKennie	0	1	0.65
