@@ -98,10 +98,11 @@ def get_new_file(filesPath):
 
 # MAKE A COPY OF FILE IF THE FILE IS CHOSEN WITH tkinter
 def write_to_file(write_filepath):
-    with open(write_filepath, mode='r', encoding="utf8") as iput:
-        with open(GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename, mode="w+", encoding="utf8") as oput:
-            for line in iput:
-                oput.write(line)
+    if write_filepath != GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename:
+        with open(write_filepath, mode='r', encoding="utf8") as input_file:
+            with open(GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename, mode="w+", encoding="utf8") as output_file:
+                for line in input_file:
+                    output_file.write(line)
 
 
 # TO GET THE RESPECTIVE WORKING DICTIONARY FROM script_helper.py
