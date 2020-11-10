@@ -97,8 +97,41 @@ try:
     os.listdir('internal')
 except FileNotFoundError:
     pathDelimiter = "../"
-tour_2020_Q4 = read_from_json(pathDelimiter+"internal/tour_2020_Q4.json")
-tour_2021_Q1 = read_from_json(pathDelimiter+"internal/tour_2021_Q1.json")
-tour_2021_Q2 = read_from_json(pathDelimiter+"internal/tour_2021_Q2.json")
-tour_2021_Q3 = read_from_json(pathDelimiter+"internal/tour_2021_Q3.json")
-tour_2021_Q4 = read_from_json(pathDelimiter+"internal/tour_2021_Q4.json")
+try:
+    with open(pathDelimiter+"internal/tour_2020_Q4.json", mode="r", encoding="utf8") as input_json:   
+        try: 
+            tour_2020_Q4 = read_from_json(pathDelimiter+"internal/tour_2020_Q4.json")
+        except:
+            tour_2020_Q4 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q1.json", mode="r", encoding="utf8") as input_json:   
+        try: 
+            tour_2021_Q1 = read_from_json(pathDelimiter+"internal/tour_2021_Q1.json")
+        except:
+            tour_2021_Q1 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q2.json", mode="r", encoding="utf8") as input_json:   
+        try: 
+            tour_2021_Q2 = read_from_json(pathDelimiter+"internal/tour_2021_Q2.json")
+        except:
+            tour_2021_Q2 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q3.json", mode="r", encoding="utf8") as input_json:   
+        try: 
+            tour_2021_Q3 = read_from_json(pathDelimiter+"internal/tour_2021_Q3.json")
+        except:
+            tour_2021_Q3 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q4.json", mode="r", encoding="utf8") as input_json:   
+        try: 
+            tour_2021_Q4 = read_from_json(pathDelimiter+"internal/tour_2021_Q4.json")
+        except:
+            tour_2021_Q4 = {}
+except:
+    with open(pathDelimiter+"internal/tour_2020_Q4.json", mode="w+", encoding="utf8"):
+        tour_2020_Q4 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q1.json", mode="w+", encoding="utf8"):
+        tour_2021_Q1 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q2.json", mode="w+", encoding="utf8"):
+        tour_2021_Q2 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q3.json", mode="w+", encoding="utf8"):
+        tour_2021_Q3 = {}
+    with open(pathDelimiter+"internal/tour_2021_Q4.json", mode="w+", encoding="utf8"):
+        tour_2021_Q4 = {}
+
