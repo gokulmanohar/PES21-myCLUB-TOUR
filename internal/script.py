@@ -25,6 +25,7 @@ class GlobalVariables:
     dictFilename = ""
     txtFilename = ""
     pathDelimiter = "../"
+    tkinterFilePath = ""
     maxPercentageGoalInvolvement = 0
     mostValuablePlayer = ""
     mostValuablePlayerWikiInfo = ""
@@ -56,34 +57,51 @@ class PlayerStats():
 
 # FINDING LAST MODIFIED FILE
 def get_new_file(filesPath):
+    filename = ""
+    cont = 'n'
     list_of_files = os.listdir(filesPath)
-    modified_time_of_new_file = np.format_float_scientific(
-        os.path.getmtime(filesPath+list_of_files[0]))
-    filename = list_of_files[0]
-    for i in list_of_files:
-        mtime = np.format_float_scientific(os.path.getmtime(filesPath+i))
-        if mtime > modified_time_of_new_file:
-            modified_time_of_new_file = mtime
-            filename = i
-    print("\nNew file found: ", filename)
-    cont = input("Continue? (y/n): ").lower().strip()
+    if len(list_of_files) == 0:
+        print("\nUnable to find any file")
+    else:
+        modified_time_of_new_file = np.format_float_scientific(
+            os.path.getmtime(filesPath+list_of_files[0]))
+        filename = list_of_files[0]
+        for i in list_of_files:
+            mtime = np.format_float_scientific(os.path.getmtime(filesPath+i))
+            if mtime > modified_time_of_new_file:
+                modified_time_of_new_file = mtime
+                filename = i
+        if filename.endswith(".txt"):
+            print("\nNew file found: ", filename)
+            cont = input("Continue? (y/n): ").lower().strip()
+        else:
+            print("\nUnable to find any file")
+            cont = 'n'
     if cont == 'y' or cont == '':
         return filename
     elif cont == 'n':
         manual_file_select = input(
-            "Manual override. Enter filename manually (eg. jan1): ").lower().strip()
+            "Enter filename manually (eg. jan1) or Enter to skip: ").lower().strip()
         manual_file_select = manual_file_select+".txt"
         if manual_file_select not in list_of_files:
             print("Cannot find", manual_file_select+". Opening filepicker")
-            time.sleep(0.3)
-            abs_pdf_path = askopenfilename(
+            abs_txt_path = askopenfilename(
                 filetypes=[('Text Document', '*.txt')])
-            tfilename = str(abs_pdf_path).split('/')[-1]
+            tfilename = str(abs_txt_path).split('/')[-1]
+            GlobalVariables.tkinterFilePath = abs_txt_path
             return tfilename
         else:
             return manual_file_select
     else:
         raise Exception("Invalid input. Exiting")
+
+
+# MAKE A COPY OF FILE IF THE FILE IS CHOSEN WITH tkinter
+def write_to_file(write_filepath):
+    with open(write_filepath, mode='r', encoding="utf8") as iput:
+        with open(GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename, mode="w+", encoding="utf8") as oput:
+            for line in iput:
+                oput.write(line)
 
 
 # TO GET THE RESPECTIVE WORKING DICTIONARY FROM script_helper.py
@@ -192,7 +210,7 @@ if __name__ == "__main__":
         cprint('| {0:^{1}} |'.format(s, width), color='green')
         print('+-' + '-'*(width) + '-+')
 
-    # FINDING CORRECT PATH DEGlobalVariables FOR BAT EXECUTION
+    # FINDING CORRECT PATH pathDelimiter FOR BAT EXECUTION
     try:
         os.listdir(GlobalVariables.pathDelimiter+"files")
     except FileNotFoundError:
@@ -213,7 +231,12 @@ if __name__ == "__main__":
     every_player_stats = []
     single_player_stat = []
     try:
-        with open(file=GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename, mode="r", encoding="utf-8") as working_file:
+        if GlobalVariables.tkinterFilePath == "":
+            openfilepath = GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename
+        else:
+            openfilepath = GlobalVariables.tkinterFilePath
+            write_to_file(GlobalVariables.tkinterFilePath)
+        with open(file=openfilepath, mode="r", encoding="utf-8") as working_file:
             for line in working_file:
                 if line.startswith("Player Name"):
                     continue
