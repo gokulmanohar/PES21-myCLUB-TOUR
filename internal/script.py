@@ -7,6 +7,7 @@ from tabulate import tabulate
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+import shutil
 import webbrowser
 from tkinter.filedialog import askopenfilename
 from wikipedia import wikipedia
@@ -97,12 +98,9 @@ def get_new_file(filesPath):
 
 
 # MAKE A COPY OF FILE IF THE FILE IS CHOSEN WITH tkinter
-def write_to_file(write_filepath):
-    if write_filepath != GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename:
-        with open(write_filepath, mode='r', encoding="utf8") as input_file:
-            with open(GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename, mode="w+", encoding="utf8") as output_file:
-                for line in input_file:
-                    output_file.write(line)
+def write_to_file(tkinter_chosen_file_path):
+    if tkinter_chosen_file_path != GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename:
+        shutil.copyfile(tkinter_chosen_file_path, GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename)
 
 
 # TO GET THE RESPECTIVE WORKING DICTIONARY FROM script_helper.py
