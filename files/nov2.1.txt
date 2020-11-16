@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Kasper Schmeichel	0	0
+João Cancelo	0	0
+Sol Campbell	0	0
+Joe Gomez	0	0
+Bixente Lizarazu	0	0
+Andrés Iniesta	1	3
+Declan Rice	1	0
+Paul Scholes	0	0
+Luís Figo	7	4
+Karim Benzema	1	0
+Cristiano Ronaldo	7	2
+David de Gea	0	0
+Matthijs de Ligt	0	0
+Gareth Barry	0	0
+Adrien Rabiot	0	1
+Alessandro Del Piero	1	0
+João Félix	3	5
+Kylian Mbappé	0	2

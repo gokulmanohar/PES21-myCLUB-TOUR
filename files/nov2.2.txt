@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Hugo Lloris	0	0
+Trent Alexander-Arnold	1	0
+Sol Campbell	0	0
+Carles Puyol	0	0
+Ben Chilwell	0	0
+João Félix	4	5
+Adrien Rabiot	3	2
+N'Golo Kanté	0	1
+David Beckham	3	2
+Marco van Basten	4	5
+Alessandro Del Piero	9	4
+Anthony Lopes	0	0
+Niklas Süle	0	0
+Andrea Pirlo	0	0
+Paul Scholes	0	0
+Federico Chiesa	0	2
+Fernando Morientes	2	2
+Olivier Giroud	0	1
