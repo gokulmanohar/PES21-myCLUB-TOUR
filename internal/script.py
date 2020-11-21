@@ -437,5 +437,5 @@ if __name__ == "__main__":
     close = input("Press any key to continue . . .")
 
 
-# Written by
+# Code developed by
 # https://github.com/gokulmanohar
