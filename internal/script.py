@@ -100,7 +100,8 @@ def get_new_file(filesPath):
 # MAKE A COPY OF FILE IF THE FILE IS CHOSEN WITH tkinter
 def write_to_file(tkinter_chosen_file_path):
     if tkinter_chosen_file_path != GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename:
-        shutil.copyfile(tkinter_chosen_file_path, GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename)
+        shutil.copyfile(tkinter_chosen_file_path,
+                        GlobalVariables.pathDelimiter+"files/"+GlobalVariables.txtFilename)
 
 
 # TO GET THE RESPECTIVE WORKING DICTIONARY FROM script_helper.py
@@ -364,12 +365,8 @@ def main():
         print(GlobalVariables.mostValuablePlayer)
     try:
         n = ToastNotifier()
-        n.show_toast("PES 21 myCLUB Tour", "Most valuable player is "+GlobalVariables.mostValuablePlayer,
-<<<<<<< Updated upstream
-                     icon_path=GlobalVariables.pathDelimiter+"docs/PES-logo.ico", threaded=True)
-=======
-                     icon_path="icons/logo.ico", threaded=True)
->>>>>>> Stashed changes
+        n.show_toast("PES 21 myCLUB Tour", "Most valuable player is " +
+                     GlobalVariables.mostValuablePlayer, icon_path="icons/logo.ico", threaded=True)
     except:
         pass
 
@@ -434,10 +431,10 @@ def main():
 
     print("\nDONE!")
 
+
 if __name__ == "__main__":
     main()
     close = input("Press any key to continue . . .")
-
 
 
 # Written by
