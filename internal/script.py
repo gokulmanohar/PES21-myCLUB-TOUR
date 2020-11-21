@@ -365,7 +365,7 @@ def main():
     try:
         n = ToastNotifier()
         n.show_toast("PES 21 myCLUB Tour", "Most valuable player is "+GlobalVariables.mostValuablePlayer,
-                     icon_path=GlobalVariables.pathDelimiter+"docs/PES-logo.ico", threaded=True)
+                     icon_path="icons/PES-logo.ico", threaded=True)
     except:
         pass
 
