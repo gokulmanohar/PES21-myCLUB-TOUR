@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Jan Oblak	0	0
+Sergi Roberto	2	1
+Jules Koundé	0	0
+Gabriel Paulista	0	0
+Ferland Mendy	0	3
+Koke	0	1
+Marcos Llorente	4	6
+Casemiro	0	1
+Lionel Messi	5	5
+Karim Benzema	0	1
+João Félix	4	7
+Thibaut Courtois	0	0
+Aritz Elustondo	0	0
+Asier Illarramendi	0	0
+Nemanja Gudelj	2	2
+Vinícius Júnior	0	0
+Lucas Ocampos	3	0
+Luis Suárez	13	1
+David Silva	0	1
+Eden Hazard	2	0
