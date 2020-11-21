@@ -434,7 +434,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-    close = input("Press any key to continue . . .")
 
 
 # Code developed by
