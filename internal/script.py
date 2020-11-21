@@ -1,4 +1,5 @@
 # IMPORTS
+from tkinter.filedialog import askopenfilename
 import json
 import importlib
 import threading
@@ -9,7 +10,6 @@ import matplotlib.pyplot as plt
 import os
 import shutil
 import webbrowser
-from tkinter.filedialog import askopenfilename
 from wikipedia import wikipedia
 import colorama
 from termcolor import cprint
@@ -198,7 +198,7 @@ def tabular_display(table, headers):
 
 
 # MAIN
-if __name__ == "__main__":
+def main():
 
     # DISPLAYING TITLE
     display_statements_list = ["PES 21 myClub Tour"]
@@ -429,3 +429,12 @@ if __name__ == "__main__":
         print("\nGraph saved at", plt_graph_filepath)
 
     print("\nDONE!")
+
+if __name__ == "__main__":
+    main()
+    close = input("Press any key to continue . . .")
+
+
+
+# Written by
+# https://github.com/gokulmanohar

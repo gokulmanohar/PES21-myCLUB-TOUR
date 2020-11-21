@@ -43,7 +43,7 @@ def clear_complete(flag, file_name):
         print(file_name)
 
 
-if __name__ == "__main__":
+def main():
 
     try:
         colorama.init()
@@ -72,3 +72,7 @@ if __name__ == "__main__":
         sys.exit("Exiting")
     else:
         sys.exit("Invalid input")
+
+if __name__ == "__main__":
+    main()
+    close = input("Press any key to continue . . .")

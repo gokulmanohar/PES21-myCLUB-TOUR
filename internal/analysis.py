@@ -185,7 +185,7 @@ def print_max_records(string):
 
 
 # MAIN
-if __name__ == "__main__":
+def main():
 
     # FINDING CORRECT PATH pathDelimiter FOR BAT EXECUTION
     try:
@@ -292,3 +292,7 @@ if __name__ == "__main__":
         sys.exit("Invalid input")
 
     print("\nDONE!")
+
+if __name__ == "__main__":
+    main()
+    close = input("Press any key to continue . . .")
