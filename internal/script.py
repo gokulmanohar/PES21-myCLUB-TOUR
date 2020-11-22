@@ -366,7 +366,7 @@ def main():
     try:
         n = ToastNotifier()
         n.show_toast("PES 21 myCLUB Tour", "Most valuable player is " +
-                     GlobalVariables.mostValuablePlayer, icon_path="icons/logo.ico", threaded=True)
+                     GlobalVariables.mostValuablePlayer, icon_path=GlobalVariables.pathDelimiter+"internal/icons/logo.ico", threaded=True)
     except:
         pass
 
@@ -421,8 +421,7 @@ def main():
         plt.xlabel('Tour event')
         for i, v in enumerate(y_pos):
             plt.text(x=i, y=v+1, s=str(v))
-        plt_graph_filepath = GlobalVariables.pathDelimiter + \
-            "statistics/" + plt_title + ".jpg"
+        plt_graph_filepath = GlobalVariables.pathDelimiter + "statistics/" + plt_title + ".jpg"
         mng = plt.get_current_fig_manager()
         mng.window.state("zoomed")
         plt.savefig(plt_graph_filepath, format='JPEG')
