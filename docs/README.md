@@ -22,20 +22,16 @@ The executables (.exe) along with necessary files can be downloaded for Windows 
 - [Windows 10](www.youtube.com)
 
 ### Screenshots
-**Screens**  
-[![Screens](https://i.ibb.co/xMjMRXH/screens-min.png)](https://i.ibb.co/5j2W1vK/screens.png)
-
-**Graph**  
-![Graph](https://i.ibb.co/WKn4WPB/2020-Q4.jpg)
+[![Screens](https://i.ibb.co/35xB1mT/screens-min.png)](https://i.ibb.co/GJTq4BR/screens.png)
 
 
 ### Execution
 [_Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files_]
 
-1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) each line separated by a tab or 4 spaces into `files` folder.
+1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a tab or 4 spaces into `files` folder.
 2. Execute `1. Run.exe` to run the scripts that generate the statistics.
-3. Execute `2. Analysis.exe` to analyse/compare/find the top
-4. Execute `3. Clear Records.exe` to clear all (Warning) the saved records and json files.
+3. Execute `2. Analysis.exe` to analyse/compare/find the top.
+4. Execute `3. Clear Records.exe` to clear all (warning) the saved records and json files.
 
 ### Contributions
 This repository contains the source codes. You can clone it and may make necessary changes.
