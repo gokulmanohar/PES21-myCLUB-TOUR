@@ -1,5 +1,5 @@
 # PES21 myCLUB TOUR
-[![KONAMI](https://i.ibb.co/WscptKh/konami.png)](https://www.konami.com)[![Python](https://i.ibb.co/vQVXP7K/python.png)](https://www.python.org/)
+[![KONAMI](https://i.ibb.co/w77z76H/konami.png)](https://www.konami.com)[![Python](https://i.ibb.co/6s4pytt/python.png)](https://www.python.org/)
 
 Formulate the statistics for myClub tour event as well as record, analyse and compare the stats of the players.
 
