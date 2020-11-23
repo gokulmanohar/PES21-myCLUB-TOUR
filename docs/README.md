@@ -1,4 +1,4 @@
-# PES21 myCLUB TOUR
+# PES21 myCLUB TOUR  
 [![KONAMI](https://i.ibb.co/w77z76H/konami.png)](https://www.konami.com)        [![Python](https://i.ibb.co/6s4pytt/python.png)](https://www.python.org/)
 
 Formulate the statistics for myClub tour event as well as record, analyse and compare the stats of the players.
@@ -18,23 +18,24 @@ Formulate the statistics for myClub tour event as well as record, analyse and co
 - Finds the all time top goal scorer, assist maker etc.
 
 ### Download
-The executable (.exe) files can be downloaded for Windows 10.
+The executables (.exe) along with necessary files can be downloaded for Windows 10.
 - [Windows 10](www.youtube.com)
-
-### Contributions
-This repository contains the source codes. You can clone it and may make necessary changes.
 
 ### Screenshots
 **Screens**  
 [![Screens](https://i.ibb.co/xMjMRXH/screens-min.png)](https://i.ibb.co/5j2W1vK/screens.png)
 
 **Graph**  
-![Graph](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/blob/main/statistics/2020%20Q4.jpg?raw=true)
+![Graph](https://i.ibb.co/WKn4WPB/2020-Q4.jpg)
 
 
 ### Execution
-(Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files)
+[_Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files_]
 
 1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) each line separated by a tab or 4 spaces into `files` folder.
-2. Execute `1. Run.exe`.
-3. Check the file shown is the one to be executed. Else, select another file.
+2. Execute `1. Run.exe` to run the scripts that generate the statistics.
+3. Execute `2. Analysis.exe` to analyse/compare/find the top
+4. Execute `3. Clear Records.exe` to clear all (Warning) the saved records and json files.
+
+### Contributions
+This repository contains the source codes. You can clone it and may make necessary changes.
