@@ -9,7 +9,7 @@ Formulate the statistics for myClub tour event as well as record, analyse and co
 - Finds the sum of goals scored & assists made along a week.
 - Finds the percentage involvement of each player in a tour event.
 - Finds the MVP (Most valuable Player) of every week.
-- Does a Wikipedia search of the MVP and provides you with his details. If not enough it provides an option to pull up the web-browser with more info.
+- Does a Wikipedia search of the MVP. It also provides an option to pull up the web-browser with more information.
 - Can retain the details of all the previous week's tour stats and provides info in a comparable manner through graphs.
 - Graph shows the total goals scored throughout each Fiscal year (Quarters).
 - Saves the stats such as (goals, assists, avg goals, avg assists, appearances) of every player that played the event (Cumulative).
@@ -35,6 +35,8 @@ This repository contains the source codes. You can clone it and may make necessa
 
 
 ### Execution
+(Note for contributors: Here the instructions are for [downloadable](#Download) .exe files)
+
 1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES-myCLUB-TOUR/tree/master/files) each line separated by a tab or 4 spaces into `files` folder.
 2. Execute `RUN.bat`.
 3. Specify the name of the saved file.
