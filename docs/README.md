@@ -3,7 +3,7 @@
 
 Formulate the statistics for myClub tour event as well as record, analyse and compare the stats of the players.
 
-[![eFootball PES 21](https://i.ibb.co/RY8fWcP/pes21.jpg)](https://www.konami.com/wepes/mobile/en-us/)  
+[![eFootball PES 21](https://i.ibb.co/RY8fWcP/pes21.jpg)](https://www.konami.com/wepes/mobile/en-us/)
 
 ### Functionalities
 - Finds the sum of goals scored & assists made along a week.
@@ -25,18 +25,16 @@ The executable (.exe) files can be downloaded for Windows 10.
 This repository contains the source codes. You can clone it and may make necessary changes.
 
 ### Screenshots
-**Main UI**  
-![PES 2020 Poster](https://i.postimg.cc/d1xRnWQX/pes-my-clubui.png)
-**Analysis**  
-![PES 2020 Poster](https://i.postimg.cc/d1xRnWQX/pes-my-clubui.png)
+**Screens**  
+[![Screens](https://i.ibb.co/xMjMRXH/screens-min.png)](https://i.ibb.co/5j2W1vK/screens.png)
 
 **Graph**  
-![Graph](https://github.com/gokulmanohar/PES-myCLUB-TOUR/blob/master/statistics/2020%20Q3.jpg?raw=true)
+![Graph](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/blob/main/statistics/2020%20Q4.jpg?raw=true)
 
 
 ### Execution
-(Note for contributors: Here the instructions are for [downloadable](#Download) .exe files)
+(Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files)
 
-1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES-myCLUB-TOUR/tree/master/files) each line separated by a tab or 4 spaces into `files` folder.
-2. Execute `RUN.bat`.
-3. Specify the name of the saved file.
+1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) each line separated by a tab or 4 spaces into `files` folder.
+2. Execute `1. Run.exe`.
+3. Check the file shown is the one to be executed. Else, select another file.
