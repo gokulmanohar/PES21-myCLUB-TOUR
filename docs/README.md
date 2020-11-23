@@ -28,10 +28,10 @@ The executables (.exe) along with necessary files can be downloaded for Windows 
 ### Execution
 [_Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files_]
 
-1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a tab or 4 spaces into `files` folder.
-2. Execute `1. Run.exe` to run the scripts that generate the statistics.
-3. Execute `2. Analysis.exe` to analyse/compare/find the top.
-4. Execute `3. Clear Records.exe` to clear all (warning) the saved records and json files.
+- Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a tab or 4 spaces into `files` folder.  
+`1. Run.exe` to run the scripts that generate the statistics.  
+`2. Analysis.exe` to analyse/compare/find the top.  
+`3. Clear Records.exe` to clear all (warning) the saved records and json files.
 
 ### Contributions
 This repository contains the source codes. You can clone it and may make necessary changes.
