@@ -18,16 +18,14 @@ Formulate the statistics for myClub tour event as well as record, analyse and co
 - **`Find the Top`** Find the all time top goal scorer, assist maker etc.
 
 ### Download
-[![Windows 10](https://i.ibb.co/sJJkfMm/win10small.png)](www.youtube.com) For Windows 10
+- [For Windows 10](www.youtube.com)
 
-
-
-
-[![eFootball PES 21](https://i.ibb.co/7gXy5tG/download.png)](www.youtube.com)  
+### Contribution
+This repository contains the source codes. You can clone it and may make necessary changes.
 
 
 
 ### Execution
-1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES-myCLUB-TOUR/tree/master/files) each line separated by "    " (tab/4 spaces) into `files` folder.
+1. Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES-myCLUB-TOUR/tree/master/files) each line separated by a tab or 4 spaces into `files` folder.
 2. Execute `RUN.bat`.
 3. Specify the name of the saved file.
