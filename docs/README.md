@@ -19,7 +19,7 @@ Formulate the statistics for myClub tour event as well as record, analyse and co
 
 ### Download
 The executables (.exe) along with necessary files can be downloaded for Windows 10.  
-[Windows 10](www.youtube.com)
+[Windows 10](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/releases)
 
 ### Screenshots
 [![Screens](https://i.ibb.co/9n55X8y/screens-min.png)](https://i.ibb.co/gzghfwn/screens.png)
