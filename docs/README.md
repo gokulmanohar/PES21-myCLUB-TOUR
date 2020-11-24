@@ -19,19 +19,50 @@ Formulate the statistics for myClub tour event as well as record, analyse and co
 
 ### Download
 The executables (.exe) along with necessary files can be downloaded for Windows 10.
-- [Windows 10](www.youtube.com)
+[Windows 10](www.youtube.com)
 
 ### Screenshots
-[![Screens](https://i.ibb.co/35xB1mT/screens-min.png)](https://i.ibb.co/GJTq4BR/screens.png)
+[![Screens](https://i.ibb.co/9n55X8y/screens-min.png)](https://i.ibb.co/gzghfwn/screens.png)
 
 
 ### Execution
 [_Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files_]
 
-- Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a tab or 4 spaces into `files` folder.  
+- Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a tab or 4 spaces into _`files`_ folder.  
 `1. Run.exe` to run the scripts that generate the statistics.  
 `2. Analysis.exe` to analyse/compare/find the top.  
-`3. Clear Records.exe` to clear all (warning) the saved records and json files.
+`3. Clear Records.exe` to clear all the saved records and json files (warning).
 
-### Contributions
-This repository contains the source codes. You can clone it and may make necessary changes.
+### For Contributors
+This repository contains the source codes. You can clone it and may make necessary changes.  
+[Licence](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/blob/main/LICENSE)  
+**Requirements**  
+Following external packages need to be installed.  
+[colorama](https://pypi.org/project/colorama/)
+```
+pip install colorama
+```
+[matplotlib](https://pypi.org/project/matplotlib/)
+```
+pip install matplotlib
+```
+[numpy](https://pypi.org/project/numpy/)
+```
+pip install numpy
+```
+[tabulate](https://pypi.org/project/tabulate/)
+```
+pip install tabulate
+```
+[termcolor](https://pypi.org/project/termcolor/)
+```
+pip install termcolor
+```
+[wikipedia](https://pypi.org/project/wikipedia/)
+```
+pip install wikipedia
+```
+[win10toast](https://pypi.org/project/win10toast/)
+```
+pip install win10toast
+```
