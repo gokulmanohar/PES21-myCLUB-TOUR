@@ -34,10 +34,11 @@ The executables (.exe) along with necessary files can be downloaded for Windows 
 `3. Clear Records.exe` to clear all the saved records and json files (warning).
 
 ### For Contributors
-This repository contains the source codes. You can clone it and may make necessary changes.  
 [Licence](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/blob/main/LICENSE)  
-**Requirements**  
+
+This repository contains the source codes. You can clone it and may make necessary changes.  
 Following external packages need to be installed.  
+
 [colorama](https://pypi.org/project/colorama/)
 ```
 pip install colorama
