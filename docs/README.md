@@ -18,7 +18,7 @@ Formulate the statistics for myClub tour event as well as record, analyse and co
 - Finds the all time top goal scorer, assist maker etc.
 
 ### Download
-The executables (.exe) along with necessary files can be downloaded for Windows 10.
+The executables (.exe) along with necessary files can be downloaded for Windows 10.  
 [Windows 10](www.youtube.com)
 
 ### Screenshots
@@ -28,16 +28,17 @@ The executables (.exe) along with necessary files can be downloaded for Windows 
 ### Execution
 [_Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files_]
 
-- Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a tab or 4 spaces into _`files`_ folder.  
+Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a tab or 4 spaces into _`files`_ folder.  
+
 `1. Run.exe` to run the scripts that generate the statistics.  
 `2. Analysis.exe` to analyse/compare/find the top.  
-`3. Clear Records.exe` to clear all the saved records and json files (warning).
+`3. Clear Records.exe` to clear all the saved records and json files.
 
 ### For Contributors
 [Licence](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/blob/main/LICENSE)  
 
 This repository contains the source codes. You can clone it and may make necessary changes.  
-Following external packages need to be installed.  
+Following _external packages_ need to be installed.  
 
 [colorama](https://pypi.org/project/colorama/)
 ```
@@ -67,3 +68,7 @@ pip install wikipedia
 ```
 pip install win10toast
 ```
+
+
+Code Developed by:  
+[Gokul Manohar](https://github.com/gokulmanohar)
