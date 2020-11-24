@@ -160,7 +160,7 @@ def find_best(param, alpha_dict):
         GlobalVariables.max_stat_player_name.extend(max_stat_player_name)
 
 
-# CLEARING THE RECORDS FOR FACILITATING REPETED EXECUTIONS
+# CLEARING THE RECORDS FOR FACILITATING REPEATED EXECUTIONS
 def clear_the_max_record():
     GlobalVariables.maximum_value = 0
     GlobalVariables.max_stat_player_name = []

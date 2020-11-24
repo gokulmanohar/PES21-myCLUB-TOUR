@@ -30,9 +30,9 @@ def clear_files(directory_name, file_format):
 def clear_complete(flag, file_name):
     if flag == 0:
         try:
-            cprint("Sucessfully deleted ", color="green", end='')
+            cprint("Successfully deleted ", color="green", end='')
         except:
-            print("Sucessfully deleted ", end='')
+            print("Successfully deleted ", end='')
         print(file_name)
     else:
         GlobalVariables.clear_check = 1
