@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+David de Gea	0	0
+Thiago Silva	0	0
+Matthijs de Ligt	0	1
+Joe Gomez	0	0
+Paul Scholes	0	0
+N'Golo Kanté	0	3
+Leon Goretzka	2	1
+Lionel Messi	1	1
+Kevin De Bruyne	4	2
+Pavel Nedvěd	0	2
+Kylian Mbappé	6	2
+Alisson Becker	0	0
+Sergio Ramos	0	0
+Merih Demiral	0	0
+Koke	0	1
+Donny van de Beek	0	0
+Ferran Torres	1	0
+Romelu Lukaku	1	0
