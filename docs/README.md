@@ -28,9 +28,10 @@ The executables (.exe) along with necessary files can be downloaded for Windows 
 ### Execution
 [_Note for contributors: Here the instructions are for [downloadable](#Download) .exe files. But the instructions are same while using .bat or .exe files_]
 
-Save the *.txt* file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a *tab or 4 spaces* into _`files`_ folder.  
+Save the **.txt** file in this [format](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/tree/main/files) with each line separated by a **tab or 4 spaces** into _`files`_ folder.  
 
-You can use [OneNote for Windows 10](https://www.microsoft.com/en-in/p/onenote-for-windows-10/9wzdncrfhvjl?activetab=pivot:overviewtab) and `Tab Key` to easily form tables like this one. Then copy the table contents to a file and it will be automatically formatted with tab or 4 spaces.
+You can use [OneNote for Windows 10](https://www.microsoft.com/en-in/p/onenote-for-windows-10/9wzdncrfhvjl?activetab=pivot:overviewtab) and `Tab Key` to easily form tables like this one. Then copy the table contents to a file and it will be automatically formatted with tab or 4 spaces.  
+
 ![OneNote for Windows 10](https://i.ibb.co/wgVFQ3Q/One-Note-Interface.jpg)
 
 `1. Run.exe` to run the scripts that generate the statistics.  
