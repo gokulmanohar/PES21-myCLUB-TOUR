@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Marc-André ter Stegen	0	0
+Raphaël Varane	0	0
+Sergio Ramos	0	0
+Jules Koundé	0	0
+Yannick Carrasco	0	4
+Koke	3	2
+Casemiro	0	0
+Lionel Messi	1	1
+Marcos Llorente	3	6
+Luis Suárez	5	8
+João Félix	3	1
+Jan Oblak	0	0
+Gabriel Paulista	0	0
+Éder Militão	0	0
+Saúl Ñíguez	1	1
+David Silva	0	1
+Diego Maradona	8	4
+Karim Benzema	12	4
+Lucas Ocampos	0	1
+Philippe Coutinho	0	0
