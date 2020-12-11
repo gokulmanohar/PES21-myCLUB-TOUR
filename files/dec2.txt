@@ -12,7 +12,7 @@ Luis Suárez	5	8
 João Félix	3	1
 Jan Oblak	0	0
 Gabriel Paulista	0	0
-Éder Militão	0	0
+Eder Militão	0	0
 Saúl Ñíguez	1	1
 David Silva	0	1
 Diego Maradona	8	4
