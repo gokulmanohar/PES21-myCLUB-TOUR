@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Jan Oblak	0	0
+Sergi Roberto	1	3
+Sergio Ramos	0	0
+Raphaël Varane	1	0
+Ferland Mendy	0	2
+Casemiro	1	0
+Saúl Ñíguez	1	4
+Sergio Busquets	0	1
+Lionel Messi	8	10
+Ansu Fati	4	2
+Karim Benzema	8	4
+Marc-André ter Stegen	0	0
+Jules Koundé	0	0
+Gabriel Paulista	0	0
+Koke	1	2
+Vinícius Júnior	4	6
+João Félix	2	3
+Luka Jović	12	4
+Federico Valverde	1	0
