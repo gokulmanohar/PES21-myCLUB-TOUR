@@ -393,7 +393,7 @@ def main():
 
     # UPDATING THE WORKING DICTIONARY WITH NEW FILE'S TOTAL GOALS
     get_working_dict_from_helper_thread.join()
-    year_suffix = GlobalVariables.script_helper.get_year_suffix()
+    year_suffix = GlobalVariables.script_helper.get_year_suffix(GlobalVariables.txtFilename)
     raw_file_name = GlobalVariables.txtFilename.split(".txt")[0]
     updated_key = year_suffix + '-' + \
         (GlobalVariables.txtFilename[0:3] + "-" + raw_file_name[3:]).title()
@@ -414,8 +414,7 @@ def main():
         plt.rcdefaults()
         plt.bar(x_pos, y_pos, align='center', alpha=0.5)
         plt.xticks(x_pos, key_lists)
-        plt_title = GlobalVariables.script_helper.get_year(
-        ) + " " + GlobalVariables.script_helper.getQuarter(GlobalVariables.txtFilename)
+        plt_title = GlobalVariables.script_helper.get_year(GlobalVariables.txtFilename) + " " + GlobalVariables.script_helper.getQuarter(GlobalVariables.txtFilename)
         plt.title(plt_title)
         plt.ylabel('Number of goals')
         plt.xlabel('Tour event')

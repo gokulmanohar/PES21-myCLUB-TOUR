@@ -79,15 +79,25 @@ def get_working_dict(filename):
 
 
 # TO GET THE LAST 2 DIGITS OF A YEAR
-def get_year_suffix():
-    year = str(now.year)
-    suffix_year = year[2:4]
-    return suffix_year
+def get_year_suffix(filename):
+    year = now.year
+    if year == 2020:
+        return "20"
+    if year == 2021 and filename.startswith("dec"):
+        return "20"
+    if year == 2021:
+        return "21"
 
 
 # TO GET THE PRESENT YEAR
-def get_year():
-    return str(now.year)
+def get_year(filename):
+    year = now.year
+    if year == 2020:
+        return "2020"
+    if year == 2021 and filename.startswith("dec"):
+        return "2020"
+    if year == 2021:
+        return "2021"
 
 
 # PRELOAD
