@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Alisson Becker	0	0
+Héctor Bellerín	0	2
+Joe Gomez	0	0
+Sol Campbell	0	0
+Andrew Robertson	0	0
+Bruno Fernandes	4	4
+Thiago Alcântara	0	1
+Kevin De Bruyne	2	3
+Gareth Bale	0	0
+Edinson Cavani	4	2
+Sadio Mané	8	3
+David de Gea	0	0
+Thiago Silva	0	0
+Declan Rice	0	1
+Donny van de Beek	0	1
+Richarlison	4	1
+Adama Traoré	5	2
+Olivier Giroud	1	2
+Riyad Mahrez	0	0
+Pierre-Emerick Aubameyang	0	0
