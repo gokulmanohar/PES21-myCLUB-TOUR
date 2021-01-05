@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Manuel Neuer	0	0
+Héctor Bellerín	0	1
+Franz Beckenbauer	0	0
+Sol Campbell	0	0
+Alphonso Davies	1	1
+Paul Scholes	0	0
+Joshua Kimmich	0	1
+Ferran Torres	0	1
+João Félix	2	4
+Pavel Nedvěd	6	6
+Kylian Mbappé	2	1
+David de Gea	0	0
+Matthijs de Ligt	0	0
+Omar Mascarell	0	0
+Thiago Alcântara	0	2
+Angel Correa	1	0
+Thomas Müller	6	4
+Harry Kane	12	3
