@@ -260,7 +260,7 @@ def main():
         top_assists_values = GlobalVariables.top_stats_numeric_value
         for i in alpha_dict_combined:
             top_players(top_assists_values, "Assists", i)
-        print_best_players("Top assist maker")
+        print_best_players("Top assist makers")
         clear_the_max_record()
 
         # TOP APPEARANCES
