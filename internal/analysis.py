@@ -4,6 +4,7 @@ import os
 import sys
 import colorama
 from termcolor import cprint
+from tabulate import tabulate
 
 
 # CLASS CONTANING GLOBAL VARIABLES
@@ -14,9 +15,6 @@ class GlobalVariables:
     player_dictionary_hm = {}
     player_dictionary_ns = {}
     player_dictionary_tz = {}
-    maximum_value = 0
-    max_stat_player_name = []
-
     top_stats_numeric_value = []
     top_player_names = []
 
@@ -105,62 +103,15 @@ def player_comparison(player1, player1_dict, player2, player2_dict):
     print(player2+":", player2_dict[player2][2][1])
 
 
-# FINDING THE BEST PLAYER STATS
-def find_best(param, alpha_dict):
-    maximum_value = 0
-    max_stat_player_name = []
-    for stat in alpha_dict.values():
-        if param == "Goals":
-            if stat[0] > maximum_value:
-                maximum_value = stat[0]
-                max_stat_player_name.clear()
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-            elif stat[0] == maximum_value:
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-        if param == "Assists":
-            if stat[1] >= maximum_value:
-                maximum_value = stat[1]
-                max_stat_player_name.clear()
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-            elif stat[1] == maximum_value:
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-        if param == "Avg Goals":
-            if stat[2][0] >= maximum_value:
-                maximum_value = stat[2][0]
-                max_stat_player_name.clear()
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-            elif stat[2][0] == maximum_value:
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-        if param == "Avg Assists":
-            if stat[2][1] >= maximum_value:
-                maximum_value = stat[2][1]
-                max_stat_player_name.clear()
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-            elif stat[2][1] == maximum_value:
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-        if param == "Appearances":
-            if stat[2][2] >= maximum_value:
-                maximum_value = stat[2][2]
-                max_stat_player_name.clear()
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-            elif stat[2][2] == maximum_value:
-                max_stat_player_name.append(list(alpha_dict.keys())[
-                    list(alpha_dict.values()).index(stat)])
-    if GlobalVariables.maximum_value < maximum_value:
-        GlobalVariables.maximum_value = maximum_value
-        GlobalVariables.max_stat_player_name.clear()
-        GlobalVariables.max_stat_player_name.extend(max_stat_player_name)
-    elif GlobalVariables.maximum_value == maximum_value:
-        GlobalVariables.max_stat_player_name.extend(max_stat_player_name)
+# PRINTING THE BEST PLAYER STATS
+def print_best_players(string_param):
+    try:
+        cprint("\n"+string_param, end="\n", color="green")
+    except:
+        print("\n"+string_param, end="\n")
+    GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
+    print(tabulate(GlobalVariables.top_player_names,
+                   ["Name", "Value"], tablefmt="always"))
 
 
 # CLEARING THE RECORDS FOR FACILITATING REPEATED EXECUTIONS
@@ -171,38 +122,25 @@ def clear_the_max_record():
     GlobalVariables.top_player_names = []
 
 
-# PRINTING THE BEST PLAYER STATS
-def print_max_records(string):
-    try:
-        cprint(string, end=": ", color="green")
-    except:
-        print(string, end=": ")
-    num_of_players = len(GlobalVariables.max_stat_player_name)
-    if num_of_players <= 1:
-        end_char = ""
-    else:
-        end_char = ", "
-    if num_of_players != 1:
-        for i in range(num_of_players - 1):
-            print(GlobalVariables.max_stat_player_name[i], end=end_char)
-    print(GlobalVariables.max_stat_player_name[-1],
-          "("+str(GlobalVariables.maximum_value)+")")
-
-
+# FINDING THE TOP STAT NUMERICAL VALUES
 def top_stat_numerical_values(param, alpha_dict):
     total_numeric_param_list = GlobalVariables.top_stats_numeric_value
     shortened_value_numeric_param_list = []
+    limit = 0
     for stat in alpha_dict.values():
         if param == "Goals":
+            limit = 5
             total_numeric_param_list.append(stat[0])
         if param == "Assists":
+            limit = 5
             total_numeric_param_list.append(stat[1])
         if param == "Appearances":
+            limit = 3
             total_numeric_param_list.append(stat[2][2])
     total_numeric_param_list = list(set(total_numeric_param_list))
     total_numeric_param_list.sort(reverse=True)
-    if len(total_numeric_param_list) > 10:
-        for num in range(0, 10):
+    if len(total_numeric_param_list) > limit:
+        for num in range(0, limit):
             shortened_value_numeric_param_list.append(
                 total_numeric_param_list[num])
     else:
@@ -211,6 +149,7 @@ def top_stat_numerical_values(param, alpha_dict):
     GlobalVariables.top_stats_numeric_value = shortened_value_numeric_param_list
 
 
+# FINDING THE TOP PLAYERS
 def top_players(top_stat_value_list, param, alpha_dict):
     for stat in alpha_dict.values():
         if param == "Goals":
@@ -226,9 +165,8 @@ def top_players(top_stat_value_list, param, alpha_dict):
                     list(alpha_dict.values()).index(stat)]), value]
                 GlobalVariables.top_player_names.append(temp_list)
 
+
 # MAIN
-
-
 def main():
 
     # FINDING CORRECT PATH pathDelimiter FOR BAT EXECUTION
@@ -252,7 +190,7 @@ def main():
 
     # DISPLAYING TITLE
     display_statements_list = [
-        "1:  Player analysis", "2:  Player comparison",  "3:  List the top", "4: List the top (New)"]
+        "1:  Player analysis", "2:  Player comparison",  "3:  List the top"]
     width = len(display_statements_list[1])
     colorama.init()
     print('+-' + '-' * width + '-+')
@@ -284,6 +222,7 @@ def main():
         dict_name, analysis_player_name = match_player(
             total_player_names, analysis_player_name)
         player_analysis(analysis_player_name, dict_name)
+
     elif int(task) == 2:
         ag_player_names = list(GlobalVariables.player_dictionary_ag.keys())
         hm_player_names = list(GlobalVariables.player_dictionary_hm.keys())
@@ -299,86 +238,41 @@ def main():
             total_player_names, compare_player2)
         player_comparison(compare_player1, dict_name1,
                           compare_player2, dict_name2)
+
     elif int(task) == 3:
-        # ag_player_stats = list(GlobalVariables.player_dictionary_ag.values())
-        # hm_player_stats = list(GlobalVariables.player_dictionary_hm.values())
-        # ns_player_stats = list(GlobalVariables.player_dictionary_ns.values())
-        # tz_player_stats = list(GlobalVariables.player_dictionary_tz.values())
-        alpha_dict_combined = ["GlobalVariables.player_dictionary_ag", "GlobalVariables.player_dictionary_hm",
-                               "GlobalVariables.player_dictionary_ns", "GlobalVariables.player_dictionary_tz"]
-        # maximum_goal_number = 0
-        # maximum_assist_number = 0
-        # maximum_avg_goal_number = 0
-        # maximum_avg_assist_number = 0
-        # maximum_app_number = 0
-        # player_list_names = 0
-
-        for i in alpha_dict_combined:
-            find_best("Goals", eval(i))
-        print_max_records("Top goal scorer")
-        clear_the_max_record()
-
-        for i in alpha_dict_combined:
-            find_best("Assists", eval(i))
-        print_max_records("Top assist maker")
-        clear_the_max_record()
-
-        for i in alpha_dict_combined:
-            find_best("Avg Goals", eval(i))
-        print_max_records("Best avg goal")
-        clear_the_max_record()
-
-        for i in alpha_dict_combined:
-            find_best("Avg Assists", eval(i))
-        print_max_records("Best avg assist")
-        clear_the_max_record()
-
-        for i in alpha_dict_combined:
-            find_best("Appearances", eval(i))
-        print_max_records("Most appearances")
-        clear_the_max_record()
-
-    elif int(task) == 4:
         total_number_of_players = len(GlobalVariables.player_dictionary_ag) + len(GlobalVariables.player_dictionary_hm) + len(
             GlobalVariables.player_dictionary_ns) + len(GlobalVariables.player_dictionary_tz)
-        print("[Analying", total_number_of_players, "players]\n")
+        print("[Analying", total_number_of_players, "players]")
         alpha_dict_combined = [GlobalVariables.player_dictionary_ag, GlobalVariables.player_dictionary_hm,
                                GlobalVariables.player_dictionary_ns, GlobalVariables.player_dictionary_tz]
         # TOP GOAL SCORER
         for i in alpha_dict_combined:
             top_stat_numerical_values("Goals", i)
         top_goals_values = GlobalVariables.top_stats_numeric_value
-        print("\nTop goal scorers")
         for i in alpha_dict_combined:
             top_players(top_goals_values, "Goals", i)
-        GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
-        print(GlobalVariables.top_player_names)
+        print_best_players("Top goal scorers")
         clear_the_max_record()
 
         # TOP ASSIST MAKER
         for i in alpha_dict_combined:
             top_stat_numerical_values("Assists", i)
         top_assists_values = GlobalVariables.top_stats_numeric_value
-        print("\nTop assist maker")
         for i in alpha_dict_combined:
             top_players(top_assists_values, "Assists", i)
-        GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
-        print(GlobalVariables.top_player_names)
+        print_best_players("Top assist maker")
         clear_the_max_record()
 
-         # TOP APPEARANCES
+        # TOP APPEARANCES
         for i in alpha_dict_combined:
             top_stat_numerical_values("Appearances", i)
         top_assists_values = GlobalVariables.top_stats_numeric_value
-        print("\nTop Appearances")
         for i in alpha_dict_combined:
             top_players(top_assists_values, "Appearances", i)
-        GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
-        print(GlobalVariables.top_player_names)
+        print_best_players("Top appearances")
         clear_the_max_record()
     else:
         sys.exit("Invalid input")
-
     print("\nDONE!")
 
 
