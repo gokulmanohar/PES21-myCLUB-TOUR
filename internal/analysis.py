@@ -17,8 +17,8 @@ class GlobalVariables:
     maximum_value = 0
     max_stat_player_name = []
 
-    count_of_players = 0
     top_stats_numeric_value = []
+    top_player_names = []
 
 
 # SUBSTRING CHECK FOR PLAYER NAME IN THE INPUT
@@ -168,6 +168,7 @@ def clear_the_max_record():
     GlobalVariables.maximum_value = 0
     GlobalVariables.max_stat_player_name = []
     GlobalVariables.top_stats_numeric_value = []
+    GlobalVariables.top_player_names = []
 
 
 # PRINTING THE BEST PLAYER STATS
@@ -187,12 +188,11 @@ def print_max_records(string):
     print(GlobalVariables.max_stat_player_name[-1],
           "("+str(GlobalVariables.maximum_value)+")")
 
-def find_top_stats_numerical_values(param, alpha_dict):
+
+def top_stat_numerical_values(param, alpha_dict):
     total_numeric_param_list = GlobalVariables.top_stats_numeric_value
     shortened_value_numeric_param_list = []
-    count = 0
     for stat in alpha_dict.values():
-        count += 1
         if param == "Goals":
             total_numeric_param_list.append(stat[0])
         if param == "Assists":
@@ -203,14 +203,32 @@ def find_top_stats_numerical_values(param, alpha_dict):
     total_numeric_param_list.sort(reverse=True)
     if len(total_numeric_param_list) > 10:
         for num in range(0, 10):
-            shortened_value_numeric_param_list.append(total_numeric_param_list[num])
+            shortened_value_numeric_param_list.append(
+                total_numeric_param_list[num])
     else:
         shortened_value_numeric_param_list = total_numeric_param_list
     GlobalVariables.top_stats_numeric_value.clear()
     GlobalVariables.top_stats_numeric_value = shortened_value_numeric_param_list
-    GlobalVariables.count_of_players = GlobalVariables.count_of_players + count
+
+
+def top_players(top_stat_value_list, param, alpha_dict):
+    for stat in alpha_dict.values():
+        if param == "Goals":
+            index = stat[0]
+        elif param == "Assists":
+            index = stat[1]
+        else:
+            index = stat[2][2]
+        temp_list = []
+        for value in top_stat_value_list:
+            if index == value:
+                temp_list = [str(list(alpha_dict.keys())[
+                    list(alpha_dict.values()).index(stat)]), value]
+                GlobalVariables.top_player_names.append(temp_list)
 
 # MAIN
+
+
 def main():
 
     # FINDING CORRECT PATH pathDelimiter FOR BAT EXECUTION
@@ -231,12 +249,6 @@ def main():
             GlobalVariables.player_dictionary_tz = json.load(input_json)
     except FileNotFoundError:
         sys.exit("No files found.")
-    ag_player_names = list(GlobalVariables.player_dictionary_ag.keys())
-    hm_player_names = list(GlobalVariables.player_dictionary_hm.keys())
-    ns_player_names = list(GlobalVariables.player_dictionary_ns.keys())
-    tz_player_names = list(GlobalVariables.player_dictionary_tz.keys())
-    total_player_names = [ag_player_names,
-                          hm_player_names, ns_player_names, tz_player_names]
 
     # DISPLAYING TITLE
     display_statements_list = [
@@ -261,12 +273,24 @@ def main():
 
     # DETERMINING WHAT TO EXECUTE BASED ON THE USER INPUT
     if int(task) == 1:
+        ag_player_names = list(GlobalVariables.player_dictionary_ag.keys())
+        hm_player_names = list(GlobalVariables.player_dictionary_hm.keys())
+        ns_player_names = list(GlobalVariables.player_dictionary_ns.keys())
+        tz_player_names = list(GlobalVariables.player_dictionary_tz.keys())
+        total_player_names = [ag_player_names,
+                              hm_player_names, ns_player_names, tz_player_names]
         analysis_player_name = input(
             "Player to analyse: ").title().strip()
         dict_name, analysis_player_name = match_player(
             total_player_names, analysis_player_name)
         player_analysis(analysis_player_name, dict_name)
     elif int(task) == 2:
+        ag_player_names = list(GlobalVariables.player_dictionary_ag.keys())
+        hm_player_names = list(GlobalVariables.player_dictionary_hm.keys())
+        ns_player_names = list(GlobalVariables.player_dictionary_ns.keys())
+        tz_player_names = list(GlobalVariables.player_dictionary_tz.keys())
+        total_player_names = [ag_player_names,
+                              hm_player_names, ns_player_names, tz_player_names]
         compare_player1 = input("Player #1: ").title().strip()
         dict_name1, compare_player1 = match_player(
             total_player_names, compare_player1)
@@ -288,7 +312,7 @@ def main():
         # maximum_avg_assist_number = 0
         # maximum_app_number = 0
         # player_list_names = 0
-        
+
         for i in alpha_dict_combined:
             find_best("Goals", eval(i))
         print_max_records("Top goal scorer")
@@ -313,30 +337,50 @@ def main():
             find_best("Appearances", eval(i))
         print_max_records("Most appearances")
         clear_the_max_record()
+
     elif int(task) == 4:
-        alpha_dict_combined = ["GlobalVariables.player_dictionary_ag", "GlobalVariables.player_dictionary_hm",
-                               "GlobalVariables.player_dictionary_ns", "GlobalVariables.player_dictionary_tz"]
+        total_number_of_players = len(GlobalVariables.player_dictionary_ag) + len(GlobalVariables.player_dictionary_hm) + len(
+            GlobalVariables.player_dictionary_ns) + len(GlobalVariables.player_dictionary_tz)
+        print("[Analying", total_number_of_players, "players]\n")
+        alpha_dict_combined = [GlobalVariables.player_dictionary_ag, GlobalVariables.player_dictionary_hm,
+                               GlobalVariables.player_dictionary_ns, GlobalVariables.player_dictionary_tz]
+        # TOP GOAL SCORER
         for i in alpha_dict_combined:
-            find_top_stats_numerical_values("Goals", eval(i))
-        print("\nGoals:", GlobalVariables.top_stats_numeric_value)
-        clear_the_max_record()
+            top_stat_numerical_values("Goals", i)
+        top_goals_values = GlobalVariables.top_stats_numeric_value
+        print("\nTop goal scorers")
         for i in alpha_dict_combined:
-            find_top_stats_numerical_values("Assists", eval(i))
-        print("\nAssists:", GlobalVariables.top_stats_numeric_value)
+            top_players(top_goals_values, "Goals", i)
+        GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
+        print(GlobalVariables.top_player_names)
         clear_the_max_record()
+
+        # TOP ASSIST MAKER
         for i in alpha_dict_combined:
-            find_top_stats_numerical_values("Appearances", eval(i))
-        print("\nAppearances:", GlobalVariables.top_stats_numeric_value)
+            top_stat_numerical_values("Assists", i)
+        top_assists_values = GlobalVariables.top_stats_numeric_value
+        print("\nTop assist maker")
+        for i in alpha_dict_combined:
+            top_players(top_assists_values, "Assists", i)
+        GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
+        print(GlobalVariables.top_player_names)
         clear_the_max_record()
 
-        print("\n[Analysed", int(GlobalVariables.count_of_players/3), "players]")
-
-
-
+         # TOP APPEARANCES
+        for i in alpha_dict_combined:
+            top_stat_numerical_values("Appearances", i)
+        top_assists_values = GlobalVariables.top_stats_numeric_value
+        print("\nTop Appearances")
+        for i in alpha_dict_combined:
+            top_players(top_assists_values, "Appearances", i)
+        GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
+        print(GlobalVariables.top_player_names)
+        clear_the_max_record()
     else:
         sys.exit("Invalid input")
 
     print("\nDONE!")
+
 
 if __name__ == "__main__":
     main()
