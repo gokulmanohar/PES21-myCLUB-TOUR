@@ -17,6 +17,9 @@ class GlobalVariables:
     maximum_value = 0
     max_stat_player_name = []
 
+    count_of_players = 0
+    top_stats_numeric_value = []
+
 
 # SUBSTRING CHECK FOR PLAYER NAME IN THE INPUT
 def find_matching_names(name_list, player_name):
@@ -164,6 +167,7 @@ def find_best(param, alpha_dict):
 def clear_the_max_record():
     GlobalVariables.maximum_value = 0
     GlobalVariables.max_stat_player_name = []
+    GlobalVariables.top_stats_numeric_value = []
 
 
 # PRINTING THE BEST PLAYER STATS
@@ -183,6 +187,28 @@ def print_max_records(string):
     print(GlobalVariables.max_stat_player_name[-1],
           "("+str(GlobalVariables.maximum_value)+")")
 
+def find_top_stats_numerical_values(param, alpha_dict):
+    total_numeric_param_list = GlobalVariables.top_stats_numeric_value
+    shortened_value_numeric_param_list = []
+    count = 0
+    for stat in alpha_dict.values():
+        count += 1
+        if param == "Goals":
+            total_numeric_param_list.append(stat[0])
+        if param == "Assists":
+            total_numeric_param_list.append(stat[1])
+        if param == "Appearances":
+            total_numeric_param_list.append(stat[2][2])
+    total_numeric_param_list = list(set(total_numeric_param_list))
+    total_numeric_param_list.sort(reverse=True)
+    if len(total_numeric_param_list) > 10:
+        for num in range(0, 10):
+            shortened_value_numeric_param_list.append(total_numeric_param_list[num])
+    else:
+        shortened_value_numeric_param_list = total_numeric_param_list
+    GlobalVariables.top_stats_numeric_value.clear()
+    GlobalVariables.top_stats_numeric_value = shortened_value_numeric_param_list
+    GlobalVariables.count_of_players = GlobalVariables.count_of_players + count
 
 # MAIN
 def main():
@@ -214,7 +240,7 @@ def main():
 
     # DISPLAYING TITLE
     display_statements_list = [
-        "1:  Player analysis", "2:  Player comparison",  "3:  List the top"]
+        "1:  Player analysis", "2:  Player comparison",  "3:  List the top", "4: List the top (New)"]
     width = len(display_statements_list[1])
     colorama.init()
     print('+-' + '-' * width + '-+')
@@ -250,18 +276,18 @@ def main():
         player_comparison(compare_player1, dict_name1,
                           compare_player2, dict_name2)
     elif int(task) == 3:
-        ag_player_stats = list(GlobalVariables.player_dictionary_ag.values())
-        hm_player_stats = list(GlobalVariables.player_dictionary_hm.values())
-        ns_player_stats = list(GlobalVariables.player_dictionary_ns.values())
-        tz_player_stats = list(GlobalVariables.player_dictionary_tz.values())
+        # ag_player_stats = list(GlobalVariables.player_dictionary_ag.values())
+        # hm_player_stats = list(GlobalVariables.player_dictionary_hm.values())
+        # ns_player_stats = list(GlobalVariables.player_dictionary_ns.values())
+        # tz_player_stats = list(GlobalVariables.player_dictionary_tz.values())
         alpha_dict_combined = ["GlobalVariables.player_dictionary_ag", "GlobalVariables.player_dictionary_hm",
                                "GlobalVariables.player_dictionary_ns", "GlobalVariables.player_dictionary_tz"]
-        maximum_goal_number = 0
-        maximum_assist_number = 0
-        maximum_avg_goal_number = 0
-        maximum_avg_assist_number = 0
-        maximum_app_number = 0
-        player_list_names = 0
+        # maximum_goal_number = 0
+        # maximum_assist_number = 0
+        # maximum_avg_goal_number = 0
+        # maximum_avg_assist_number = 0
+        # maximum_app_number = 0
+        # player_list_names = 0
         
         for i in alpha_dict_combined:
             find_best("Goals", eval(i))
@@ -287,6 +313,25 @@ def main():
             find_best("Appearances", eval(i))
         print_max_records("Most appearances")
         clear_the_max_record()
+    elif int(task) == 4:
+        alpha_dict_combined = ["GlobalVariables.player_dictionary_ag", "GlobalVariables.player_dictionary_hm",
+                               "GlobalVariables.player_dictionary_ns", "GlobalVariables.player_dictionary_tz"]
+        for i in alpha_dict_combined:
+            find_top_stats_numerical_values("Goals", eval(i))
+        print("\nGoals:", GlobalVariables.top_stats_numeric_value)
+        clear_the_max_record()
+        for i in alpha_dict_combined:
+            find_top_stats_numerical_values("Assists", eval(i))
+        print("\nAssists:", GlobalVariables.top_stats_numeric_value)
+        clear_the_max_record()
+        for i in alpha_dict_combined:
+            find_top_stats_numerical_values("Appearances", eval(i))
+        print("\nAppearances:", GlobalVariables.top_stats_numeric_value)
+        clear_the_max_record()
+
+        print("\n[Analysed", int(GlobalVariables.count_of_players/3), "players]")
+
+
 
     else:
         sys.exit("Invalid input")
