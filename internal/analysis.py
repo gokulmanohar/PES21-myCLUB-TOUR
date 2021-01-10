@@ -116,8 +116,6 @@ def print_best_players(string_param):
 
 # CLEARING THE RECORDS FOR FACILITATING REPEATED EXECUTIONS
 def clear_the_max_record():
-    GlobalVariables.maximum_value = 0
-    GlobalVariables.max_stat_player_name = []
     GlobalVariables.top_stats_numeric_value = []
     GlobalVariables.top_player_names = []
 
