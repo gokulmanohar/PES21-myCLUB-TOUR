@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Alex Meret	0	0
+João Cancelo	0	0
+Leonardo Bonucci	1	0
+Niklas Süle	0	0
+Ferland Mendy	0	0
+Bruno Fernandes	1	4
+Casemiro	2	2
+Kevin De Bruyne	0	7
+Johan Cruyff	7	3
+Kylian Mbappé	18	2
+Alessandro Del Piero	4	4
+Marc-André ter Stegen	0	0
+Kalidou Koulibaly	0	0
+Nemanja Matić	0	0
+Donny van de Beek	1	8
+Marcos Llorente	0	0
+João Félix	1	3
+Moise Kean	2	2
+Giorgio Chiellini	0	0
