@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+David de Gea	0	0
+Dani Alves	0	2
+Alessio Romagnoli	0	0
+Kalidou Koulibaly	1	0
+Alex Sandro	0	1
+Paul Scholes	2	4
+Joshua Kimmich	3	1
+Piotr Zieliński	1	2
+Lionel Messi	5	8
+Zlatan Ibrahimović	6	4
+Ansu Fati	10	5
+Marc-André ter Stegen	0	0
+Franz Beckenbauer	0	1
+David Alaba	0	1
+Phil Foden	0	0
+Lorenzo Insigne	1	5
+Federico Chiesa	0	0
+Mauro Icardi	12	4
