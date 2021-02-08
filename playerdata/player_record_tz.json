@@ -48,9 +48,9 @@
         0,
         1,
         [
-            0,
-            1,
-            1
+            0.0,
+            0.5,
+            2
         ]
     ],
     "Trent Alexander-Arnold": [
@@ -73,11 +73,11 @@
     ],
     "Virgil van Dijk": [
         0,
-        0,
+        1,
         [
-            0,
-            0,
-            1
+            0.0,
+            0.5,
+            2
         ]
     ],
     "Weston McKennie": [

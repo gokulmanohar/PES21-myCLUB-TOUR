@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+David de Gea	0	0
+Héctor Bellerín	0	1
+Virgil van Dijk	0	1
+Aymeric Laporte	0	0
+Luke Shaw	0	1
+Thomas Partey	0	0
+Mason Mount	2	3
+Declan Rice	1	1
+Mohamed Salah	4	1
+Danny Ings	4	2
+Sadio Mané	2	2
+Alisson Becker	0	0
+Joe Gomez	0	0
+Paul Pogba	0	0
+Kevin De Bruyne	0	3
+Marcus Rashford	4	1
+Gareth Bale	3	2
+Raúl Jiménez	1	2
