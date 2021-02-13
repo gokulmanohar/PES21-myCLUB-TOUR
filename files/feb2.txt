@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Marc-André ter Stegen	0	0
+Leonardo Bonucci	0	0
+Matthijs de Ligt	0	0
+Jérôme Boateng	0	0
+Pavel Nedvěd	3	2
+Paul Scholes	0	2
+Omar Mascarell	0	2
+Juan Cuadrado	1	1
+Marcos Llorente	1	2
+Bruno Fernandes	1	1
+Lautaro Martínez	5	4
+Manuel Neuer	0	1
+Virgil van Dijk	2	2
+Nemanja Matić	1	0
+Kevin De Bruyne	2	4
+Donny van de Beek	2	2
+Ferran Torres	0	1
+Alvaro Morata	10	1
