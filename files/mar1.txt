@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Oliver Kahn	0	0
+Sergi Roberto	0	2
+Eder Militão	0	0
+Jules Koundé	0	0
+Ferland Mendy	1	0
+Saúl Ñíguez	0	4
+Casemiro	2	0
+Toni Kroos	2	0
+Lionel Messi	5	10
+Luis Suárez	5	8
+Ansu Fati	4	1
+Shay Given	0	0
+Raphaël Varane	2	0
+Federico Valverde	0	2
+Koke	1	0
+Eden Hazard	8	1
+Rodrygo	2	0
+Luka Jović	4	0
+Carles Aleñá	0	0
