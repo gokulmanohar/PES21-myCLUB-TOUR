@@ -51,14 +51,14 @@ def main():
     except:
         print("Warning! ", end='')
     c = input(
-        "This will clear all the records.\nDo you want to continue? (y/n): ").lower().strip()
+        "This will clear all the records.\nDo you want to continue? (Type 'yes' for confirmation): ").lower().strip()
 
     try:
         os.listdir(GlobalVariables.pathDelimiter+"files")
     except FileNotFoundError:
         GlobalVariables.pathDelimiter = "./"
 
-    if c == 'y':
+    if c == 'yes':
         filetypes = {
             "files": ".txt",
             "statistics": ".jpg",
