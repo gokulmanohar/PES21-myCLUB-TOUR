@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Alisson Becker	0	0
+Kyle Walker	0	3
+Virgil van Dijk	0	0
+Rúben Dias	0	2
+Luke Shaw	0	3
+Declan Rice	0	3
+Kai Havertz	1	4
+Paul Pogba	1	1
+Gareth Bale	14	3
+Harry Kane	18	3
+Jack Grealish	0	1
+Nick Pope	0	0
+Cağlar Söyüncü	0	0
+N'Golo Kanté	1	2
+Pierre-Emile Højbjerg	0	1
+Bruno Fernandes	0	2
+Diogo Jota	2	6
+Edinson Cavani	6	4
+Mason Mount	1	1
+Richarlison	2	0
