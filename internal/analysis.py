@@ -110,6 +110,8 @@ def print_best_players(string_param):
     except:
         print("\n"+string_param, end="\n")
     GlobalVariables.top_player_names.sort(key=lambda x: x[1], reverse=True)
+    GlobalVariables.top_player_names = [i for n, i in enumerate(
+        GlobalVariables.top_player_names) if i not in GlobalVariables.top_player_names[:n]]
     print(tabulate(GlobalVariables.top_player_names,
                    ["Name", "Value"], tablefmt="always"))
 
@@ -151,14 +153,14 @@ def top_stat_numerical_values(param, alpha_dict):
 def top_players(top_stat_value_list, param, alpha_dict):
     for stat in alpha_dict.values():
         if param == "Goals":
-            index = stat[0]
+            value_at_index = stat[0]
         elif param == "Assists":
-            index = stat[1]
-        else:
-            index = stat[2][2]
+            value_at_index = stat[1]
+        elif param == "Appearances":
+            value_at_index = stat[2][2]
         temp_list = []
         for value in top_stat_value_list:
-            if index == value:
+            if value_at_index == value:
                 temp_list = [str(list(alpha_dict.keys())[
                     list(alpha_dict.values()).index(stat)]), value]
                 GlobalVariables.top_player_names.append(temp_list)
@@ -264,9 +266,9 @@ def main():
         # TOP APPEARANCES
         for i in alpha_dict_combined:
             top_stat_numerical_values("Appearances", i)
-        top_assists_values = GlobalVariables.top_stats_numeric_value
+        top_appearance_values = GlobalVariables.top_stats_numeric_value
         for i in alpha_dict_combined:
-            top_players(top_assists_values, "Appearances", i)
+            top_players(top_appearance_values, "Appearances", i)
         print_best_players("Top appearances")
         clear_the_max_record()
     else:
