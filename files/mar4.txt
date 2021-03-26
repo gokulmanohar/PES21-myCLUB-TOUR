@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Oliver Kahn	0	0
+Carles Puyol	1	0
+Franz Beckenbauer	0	0
+Paolo Maldini	0	0
+Federico Chiesa	4	0
+Jamal Musiala	0	1
+Patrick Vieira	0	2
+Andrés Iniesta	1	1
+David Beckham	3	3
+Johan Cruyff	5	6
+Marco van Basten	1	2
+Marc-André ter Stegen	0	0
+Alessio Romagnoli	0	0
+Paul Scholes	0	0
+Ronaldinho	0	2
+Ansu Fati	0	0
+Dennis Bergkamp	3	8
+Donyell Malen	10	2
+Matthijs de Ligt	0	0
+Marcelo Salas	4	0
