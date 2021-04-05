@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Alisson Becker	0	0
+Aymeric Laporte	0	0
+Virgil van Dijk	0	1
+Rúben Dias	0	0
+Bukayo Saka	0	4
+Paul Pogba	4	4
+Declan Rice	1	2
+Scott McTominay	2	0
+Ferran Torres	0	1
+Richarlison	11	3
+Edinson Cavani	8	1
+Nick Pope	0	0
+Thiago Silva	0	0
+Thiago Alcântara	0	2
+Phil Foden	2	1
+Allan Saint-Maximin	0	2
+Riyad Mahrez	0	1
+Olivier Giroud	1	4
