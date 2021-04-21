@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Manuel Neuer	0	1
+Danilo	0	1
+Franz Beckenbauer	1	0
+Jérôme Boateng	0	1
+Alphonso Davies	0	0
+Paul Scholes	1	1
+Casemiro	1	1
+Lionel Messi	3	2
+Kylian Mbappé	14	4
+Karim Benzema	2	8
+Ansu Fati	2	3
+Wojciech Szczęsny	0	0
+Alessio Romagnoli	0	0
+Joshua Kimmich	0	0
+Adrien Rabiot	0	1
+Leroy Sané	1	0
+Mason Greenwood	5	0
+Gabriel Jesus	5	3
+Marcelo Brozović	0	0
+Antoine Griezmann	0	1
