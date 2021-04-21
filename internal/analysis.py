@@ -129,13 +129,13 @@ def top_stat_numerical_values(param, alpha_dict):
     limit = 0
     for stat in alpha_dict.values():
         if param == "Goals":
-            limit = 5
+            limit = 10
             total_numeric_param_list.append(stat[0])
         if param == "Assists":
-            limit = 5
+            limit = 10
             total_numeric_param_list.append(stat[1])
         if param == "Appearances":
-            limit = 3
+            limit = 5
             total_numeric_param_list.append(stat[2][2])
     total_numeric_param_list = list(set(total_numeric_param_list))
     total_numeric_param_list.sort(reverse=True)
