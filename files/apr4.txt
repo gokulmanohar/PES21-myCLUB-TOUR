@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Alisson Becker	0	0
+Juan Cuadrado	0	4
+Sergio Ramos	0	0
+Giorgio Chiellini	0	0
+Alphonso Davies	0	2
+Paul Pogba	4	1
+Toni Kroos	0	3
+Lionel Messi	2	4
+Federico Chiesa	4	6
+Kylian Mbappé	16	5
+Cristiano Ronaldo	8	4
+David de Gea	0	0
+Sol Campbell	1	0
+Thiago Alcântara	0	0
+Kevin De Bruyne	1	6
+Marcus Rashford	3	3
+Gareth Bale	3	1
+João Félix	2	1
