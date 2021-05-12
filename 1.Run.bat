@@ -2,6 +2,6 @@
 
 set "newDir=%~dp0internal"
 cd %newDir%
-"python" "script.py"
+"python" "%~dp0\internal\script.py"
 
 pause
