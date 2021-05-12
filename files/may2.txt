@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Wojciech Szczęsny	0	0
+Alessandro Bastoni	0	0
+Matthijs de Ligt	2	1
+Kalidou Koulibaly	0	0
+Pavel Nedvěd	3	2
+Nicolò Barella	0	2
+Adrien Rabiot	1	1
+Aaron Ramsey	0	1
+Hans Hateboer	0	7
+Zlatan Ibrahimović	12	5
+Cristiano Ronaldo	12	6
+Gianluigi Buffon	0	0
+Alessio Romagnoli	1	0
+Weston McKennie	2	4
+Ivan Perišić	0	3
+Federico Bernardeschi	1	0
+Dries Mertens	6	2
+Dušan Vlahović	2	1
+Rodrigo De Paul	1	2
