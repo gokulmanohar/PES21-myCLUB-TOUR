@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Marc-André ter Stegen	0	0
+Dani Alves	0	0
+Kalidou Koulibaly	0	0
+Presnel Kimpembe	1	0
+Theo Hernández	0	1
+Toni Kroos	1	0
+Sergio Busquets	0	0
+Kevin De Bruyne	2	5
+Bruno Fernandes	1	3
+Robert Lewandowski	0	0
+João Félix	3	4
+Wojciech Szczęsny	0	0
+Niklas Süle	0	0
+Thomas Partey	1	1
+Piotr Zieliński	1	0
+Marcos Llorente	1	0
+Paulo Dybala	4	1
+Radamel Falcao	1	1
