@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Jan Oblak	0	0
+Juan Cuadrado	0	1
+Sergio Ramos	1	0
+Giorgio Chiellini	0	0
+Ferland Mendy	0	1
+Pavel Nedvěd	1	1
+Paul Scholes	0	0
+Arthur Melo	2	2
+Mohamed Salah	1	1
+Lionel Messi	3	4
+Cristiano Ronaldo	10	2
+Alex Meret	0	0
+Milan Škriniar	0	0
+Danilo	0	1
+Koke	0	1
+Riyad Mahrez	0	0
+Moise Kean	0	3
+Harry Kane	3	0
