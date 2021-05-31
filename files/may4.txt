@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Marc-André ter Stegen	0	0
+Danilo	0	1
+Niklas Süle	0	1
+Presnel Kimpembe	0	0
+Jordi Alba	0	1
+Marco Verratti	1	0
+Thiago Alcântara	0	2
+Phil Foden	0	1
+Lionel Messi	6	7
+Luis Suárez	13	3
+Neymar	3	1
+Manuel Neuer	0	0
+Joe Gomez	0	1
+João Cancelo	0	0
+Arthur Melo	1	1
+Callum Hudson-Odoi	1	1
+Riyad Mahrez	0	1
+Duván Zapata	4	2
