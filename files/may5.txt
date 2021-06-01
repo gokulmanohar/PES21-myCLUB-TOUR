@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+David de Gea	0	0
+Kalidou Koulibaly	1	0
+Milan Škriniar	0	0
+David Alaba	0	0
+Ivan Perišić	1	3
+Jordan Henderson	0	0
+Andrea Pirlo	7	8
+Aaron Ramsey	1	3
+Dejan Kulusevski	0	3
+Pierre-Emerick Aubameyang	1	0
+Kylian Mbappé	6	6
+Dean Henderson	0	0
+Alessio Romagnoli	0	0
+Jérôme Boateng	0	0
+Koke	0	0
+Pierre-Emile Højbjerg	1	2
+Angel Correa	1	3
+Luka Jović	11	2
+Denis Law	8	1
