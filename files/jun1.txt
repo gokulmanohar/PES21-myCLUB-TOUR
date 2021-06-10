@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Marc-André ter Stegen	0	0
+César Azpilicueta	0	0
+Carles Puyol	0	0
+Paolo Maldini	0	0
+Oleksandr Zinchenko	0	2
+Luis Alberto	0	3
+Frank Rijkaard	0	2
+Scott McTominay	0	3
+Luís Figo	5	11
+Fernando Torres	24	6
+Jack Grealish	1	0
+Alexander Nübel	0	0
+Thilo Kehrer	0	1
+Mario Pašalić	0	4
+Saúl Ñíguez	1	1
+Ansu Fati	6	3
+Gareth Bale	1	1
+Marco van Basten	3	2
+Pep Guardiola	0	1
+Bixente Lizarazu	0	0
