@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Wojciech Szczęsny	0	0
+Leonardo Bonucci	0	0
+Virgil van Dijk	0	1
+Jérôme Boateng	0	0
+Andrea Pirlo	1	3
+Patrick Vieira	1	0
+David Beckham	2	2
+Kevin De Bruyne	1	1
+Johan Cruyff	3	3
+Pablo Fornals	0	2
+Kylian Mbappé	12	3
+Alex Meret	0	0
+Clément Lenglet	0	0
+Aymeric Laporte	0	0
+Paul Gascoigne	2	6
+Marc Cucurella	1	0
+Dries Mertens	0	0
+Donyell Malen	3	1
