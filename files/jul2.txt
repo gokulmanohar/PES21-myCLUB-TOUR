@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Gianluigi Donnarumma	0	0
+Cafu	0	0
+Leonardo Bonucci	0	0
+Raphaël Varane	0	0
+Roberto Carlos	0	1
+Paul Scholes	3	1
+Jorginho	0	1
+Andrés Iniesta	0	8
+Lionel Messi	4	8
+Fernando Torres	14	3
+Alessandro Del Piero	8	5
+Nick Pope	0	0
+Presnel Kimpembe	0	0
+David Alaba	0	1
+Casemiro	0	2
+Rodrigo De Paul	0	0
+James Maddison	2	1
+Erling Haaland	1	0
