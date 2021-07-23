@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Gianluigi Donnarumma	0	0
+Kyle Walker	0	1
+Leonardo Bonucci	0	0
+Harry Maguire	0	0
+Leonardo Spinazzola	0	1
+Pedri	0	1
+Jorginho	0	1
+Pierre-Emile Højbjerg	0	3
+Federico Chiesa	4	6
+Cristiano Ronaldo	19	6
+Raheem Sterling	3	3
+Jordan Pickford	0	0
+Giorgio Chiellini	0	0
+Sergio Busquets	0	1
+Paul Pogba	0	2
+Georginio Wijnaldum	2	4
+Lorenzo Insigne	2	0
+Romelu Lukaku	6	3
+Marco Verratti	0	1
