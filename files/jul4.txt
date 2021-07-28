@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Dean Henderson	0	0
+Aaron Wan-Bissaka	1	0
+Carles Puyol	0	0
+Sol Campbell	0	0
+Jordi Alba	0	1
+Marco Asensio	1	4
+Andrea Pirlo	0	4
+Pep Guardiola	3	4
+Ferran Torres	0	0
+Fernando Torres	10	5
+Diego Maradona	1	2
+Marc-André ter Stegen	0	0
+Franz Beckenbauer	0	0
+Gareth Barry	0	1
+Pizzi	0	2
+Allan Saint-Maximin	1	0
+Dennis Bergkamp	0	1
+Denis Law	9	1
+Andrés Iniesta	0	0
