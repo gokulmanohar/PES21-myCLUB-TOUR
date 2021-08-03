@@ -2,6 +2,6 @@
 
 set "newDir=%~dp0internal"
 cd %newDir%
-"python" "%~dp0\internal\clear_record.py"
+"%~dp0\pythonenv\Scripts\python.exe" "%~dp0\internal\clear_record.py"
 
 pause
