@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Ederson Santana de Moraes	0	0
+Cafu	0	3
+Rúben Dias	0	0
+Virgil van Dijk	1	0
+Roberto Carlos	1	5
+Ronaldinho	3	15
+Patrick Vieira	1	1
+Frenkie de Jong	0	0
+Jadon Sancho	6	5
+Romelu Lukaku	20	2
+Neymar	0	4
+Wojciech Szczęsny	0	0
+Niklas Süle	0	0
+Piotr Zieliński	0	0
+Arthur Melo	0	0
+Ansu Fati	3	1
+Kingsley Coman	1	3
+Edinson Cavani	7	1

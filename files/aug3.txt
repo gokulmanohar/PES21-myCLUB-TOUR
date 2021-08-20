@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Manuel Neuer	0	0
+Franz Beckenbauer	1	1
+Jérôme Boateng	0	0
+Paolo Maldini	0	0
+Rodrygo	0	2
+Xavi	1	3
+Thomas Partey	0	1
+Sergej Milinković-Savić	2	0
+David Beckham	3	8
+João Félix	9	2
+André Silva	7	4
+Dean Henderson	0	0
+Clément Lenglet	0	0
+Kalvin Phillips	0	0
+Marcel Sabitzer	1	1
+Federico Bernardeschi	2	3
+Thomas Müller	1	3
+Alvaro Morata	10	2
