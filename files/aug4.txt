@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Wojciech Szczęsny	0	0
+Dani Alves	0	2
+José María Giménez	2	1
+Alessio Romagnoli	0	0
+Sergio Reguilón	0	2
+Nemanja Matić	0	0
+Pep Guardiola	0	5
+Zico	1	0
+Bernardo Silva	5	4
+Dwight Yorke	8	7
+Wilfried Zaha	6	3
+David de Gea	0	0
+Presnel Kimpembe	1	0
+Marquinhos	0	1
+Ruud Gullit	2	2
+Antoine Griezmann	2	2
+Gareth Bale	4	0
+Fabio Quagliarella	0	1
+Timo Werner	1	0
+Mesut Özil	0	0
