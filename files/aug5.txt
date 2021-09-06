@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Jan Oblak	0	0
+José María Giménez	2	0
+Milan Škriniar	0	0
+Kalidou Koulibaly	0	0
+Pavel Nedvěd	1	2
+Paul Scholes	2	4
+Casemiro	0	1
+Frenkie de Jong	1	5
+Raheem Sterling	0	1
+Kylian Mbappé	13	2
+Lautaro Martínez	6	6
+Dean Henderson	0	0
+Raphaël Varane	1	0
+Sergio Busquets	0	1
+Rodrigo Bentancur	2	1
+Riyad Mahrez	2	2
+Luka Jović	7	1
+Moise Kean	1	1
+Alessandro Bastoni	0	0
