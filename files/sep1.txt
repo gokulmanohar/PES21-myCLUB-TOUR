@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Ederson Santana de Moraes	0	0
+Juan Cuadrado	0	0
+Rúben Dias	0	1
+Kalidou Koulibaly	2	0
+Alphonso Davies	0	2
+Koke	0	4
+Andrea Pirlo	2	9
+Marcelo Brozović	1	1
+Federico Chiesa	8	7
+Harry Kane	12	3
+Cristiano Ronaldo	8	5
+Dean Henderson	0	0
+Jérôme Boateng	1	0
+Oleksandr Zinchenko	0	0
+Arthur Melo	0	0
+Vini Jr.	0	1
+Bernardo Silva	3	0
+Roberto Firmino	3	4
