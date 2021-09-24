@@ -1,0 +1,21 @@
+Player Name	Goals	Assists
+Jan Oblak	0	0
+Danilo	0	2
+José María Giménez	0	0
+Alessio Romagnoli	0	0
+Luke Shaw	0	2
+Frenkie de Jong	2	2
+Thiago Alcântara	1	2
+Adrien Rabiot	0	2
+Lionel Messi	13	5
+Robert Lewandowski	13	2
+Raheem Sterling	4	7
+Hugo Lloris	0	0
+Fikayo Tomori	0	0
+Remo Freuler	1	1
+Leon Goretzka	0	1
+Diogo Jota	1	4
+Dejan Kulusevski	5	0
+Donyell Malen	3	4
+Nemanja Matić	0	0
+Clément Lenglet	0	0
