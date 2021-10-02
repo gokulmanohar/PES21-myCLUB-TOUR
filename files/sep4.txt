@@ -1,0 +1,19 @@
+Player Name	Goals	Assists
+Iker Casillas	0	0
+Kyle Walker	0	1
+José María Giménez	1	0
+Matthijs de Ligt	0	0
+Luke Shaw	0	1
+Andrea Pirlo	0	0
+Toni Kroos	0	0
+Kevin De Bruyne	1	2
+Serge Gnabry	1	1
+Angel Di María	3	2
+Fernando Torres	7	8
+Dean Henderson	0	0
+David Alaba	0	0
+Marcelo Brozović	0	1
+Giorgian de Arrascaeta	1	0
+Ansu Fati	5	5
+Riyad Mahrez	8	2
+Radamel Falcao	4	3
