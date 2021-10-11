@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+David de Gea	0	0
+João Cancelo	0	0
+Franz Beckenbauer	0	3
+Leonardo Bonucci	2	0
+Danilo	0	1
+Son Heung-min	2	0
+Curtis Jones	3	2
+Aurélien Tchouaméni	0	4
+Mason Greenwood	4	6
+Paulo Dybala	15	7
+Karim Benzema	5	5
+Wojciech Szczęsny	0	0
+Joe Gomez	0	1
+Pedri	1	0
+Carles Aleñá	0	1
+Ivan Perišić	1	1
+Rodrygo	3	3
+Luka Jović	2	2
