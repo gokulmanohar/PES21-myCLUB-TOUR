@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Wojciech Szczęsny	0	0
+Gonzalo Montiel	0	0
+Alessio Romagnoli	0	0
+Presnel Kimpembe	0	0
+Raphaël Guerreiro	1	0
+Xavi	0	6
+Joshua Kimmich	0	3
+Luka Modrić	0	1
+Mohamed Salah	3	2
+Erling Haaland	0	0
+Neymar	0	1
+Nick Pope	0	0
+Jérôme Boateng	0	1
+Alphonso Davies	0	0
+Marcelo Brozović	0	2
+Richarlison	3	5
+Thomas Müller	0	1
+Dušan Vlahović	13	4
+Gareth Bale	6	0
+Jamie Vardy	2	0
