@@ -1,5 +1,6 @@
 # IMPORTS
 from tkinter.filedialog import askopenfilename
+from tkinter import Tk
 import json
 import importlib
 import threading
@@ -421,9 +422,15 @@ def main():
         for i, v in enumerate(y_pos):
             plt.text(x=i, y=v+1, s=str(v))
         plt_graph_filepath = GlobalVariables.pathDelimiter + "statistics/" + plt_title + ".jpg"
+        root = Tk()
+        screen_width = root.winfo_screenwidth()
+        screen_height = root.winfo_screenheight()
+        root.destroy()
+        figure = plt.gcf()
+        figure.set_size_inches(screen_width/100, screen_height/100)
+        plt.savefig(plt_graph_filepath, format='JPEG')
         mng = plt.get_current_fig_manager()
         mng.window.state("zoomed")
-        plt.savefig(plt_graph_filepath, format='JPEG')
         plt.show()
         print("\nGraph saved at", plt_graph_filepath)
 
