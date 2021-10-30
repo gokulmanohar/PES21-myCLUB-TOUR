@@ -83,8 +83,9 @@ def get_new_file(filesPath):
         return filename
     elif cont == 'n':
         manual_file_select = input(
-            "Enter filename manually (eg. jan1) or Enter to skip: ").lower().strip()
-        manual_file_select = manual_file_select+".txt"
+            "Enter filename manually (eg. 2021-jan-1) or Enter to skip: ").lower().strip()
+        if not manual_file_select.endswith(".txt"):
+            manual_file_select = manual_file_select+".txt"
         if manual_file_select not in list_of_files:
             print("Cannot find", manual_file_select+". Opening filepicker")
             abs_txt_path = askopenfilename(
@@ -394,7 +395,8 @@ def main():
 
     # UPDATING THE WORKING DICTIONARY WITH NEW FILE'S TOTAL GOALS
     get_working_dict_from_helper_thread.join()
-    year_suffix = GlobalVariables.script_helper.get_year_suffix(GlobalVariables.txtFilename)
+    year_suffix = GlobalVariables.script_helper.get_year_suffix(
+        GlobalVariables.txtFilename)
     raw_file_name = GlobalVariables.txtFilename.split(".txt")[0]
     updated_key = year_suffix + '-' + \
         (GlobalVariables.txtFilename[0:3] + "-" + raw_file_name[3:]).title()
@@ -415,13 +417,15 @@ def main():
         plt.rcdefaults()
         plt.bar(x_pos, y_pos, align='center', alpha=0.5)
         plt.xticks(x_pos, key_lists)
-        plt_title = GlobalVariables.script_helper.get_year(GlobalVariables.txtFilename) + " " + GlobalVariables.script_helper.getQuarter(GlobalVariables.txtFilename)
+        plt_title = GlobalVariables.script_helper.get_year(
+            GlobalVariables.txtFilename) + " " + GlobalVariables.script_helper.getQuarter(GlobalVariables.txtFilename)
         plt.title(plt_title)
         plt.ylabel('Number of goals')
         plt.xlabel('Tour event')
         for i, v in enumerate(y_pos):
             plt.text(x=i, y=v+1, s=str(v))
-        plt_graph_filepath = GlobalVariables.pathDelimiter + "statistics/" + plt_title + ".jpg"
+        plt_graph_filepath = GlobalVariables.pathDelimiter + \
+            "statistics/" + plt_title + ".jpg"
         root = Tk()
         screen_width = root.winfo_screenwidth()
         screen_height = root.winfo_screenheight()
