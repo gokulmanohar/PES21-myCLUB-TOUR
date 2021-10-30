@@ -395,11 +395,12 @@ def main():
 
     # UPDATING THE WORKING DICTIONARY WITH NEW FILE'S TOTAL GOALS
     get_working_dict_from_helper_thread.join()
-    year_suffix = GlobalVariables.script_helper.get_year_suffix(
-        GlobalVariables.txtFilename)
-    raw_file_name = GlobalVariables.txtFilename.split(".txt")[0]
+    raw_file_name = str(GlobalVariables.txtFilename.split(".txt")[0])
+    year_suffix = str(raw_file_name.split("-")[0][-2:])
+    month_name_abbr = str(raw_file_name.split("-")[1])
+    week_name = str(raw_file_name.split("-")[2])
     updated_key = year_suffix + '-' + \
-        (GlobalVariables.txtFilename[0:3] + "-" + raw_file_name[3:]).title()
+        (month_name_abbr + "-" + week_name).title()
     GlobalVariables.tour.update({updated_key: GlobalVariables.totalGoals})
     with open(GlobalVariables.pathDelimiter+"internal/"+GlobalVariables.dictFilename+".json", mode="w+", encoding="utf8") as dict_json:
         json.dump(GlobalVariables.tour, dict_json, indent=4)
@@ -429,13 +430,14 @@ def main():
         root = Tk()
         screen_width = root.winfo_screenwidth()
         screen_height = root.winfo_screenheight()
-        root.destroy()
+        root.withdraw()
         figure = plt.gcf()
         figure.set_size_inches(screen_width/100, screen_height/100)
         plt.savefig(plt_graph_filepath, format='JPEG')
         mng = plt.get_current_fig_manager()
         mng.window.state("zoomed")
         plt.show()
+        root.destroy()
         print("\nGraph saved at", plt_graph_filepath)
 
     print("\nDONE!")
