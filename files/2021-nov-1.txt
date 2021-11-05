@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Marc-André ter Stegen	0	0
+João Cancelo	0	2
+José María Giménez	0	0
+Virgil van Dijk	0	0
+Andrew Robertson	0	1
+Miralem Pjanić	2	2
+Toni Kroos	0	3
+Ilkay Gündoğan	0	2
+Bruno Fernandes	3	2
+Alvaro Morata	18	0
+Francesco Totti	4	6
+Ederson Santana de Moraes	0	0
+Jérôme Boateng	0	0
+Nemanja Matić	0	0
+Weston McKennie	1	0
+Philippe Coutinho	0	1
+Diego Maradona	2	2
+Roberto Firmino	2	2
+Jamal Musiala	2	2
+Memphis Depay	1	3
