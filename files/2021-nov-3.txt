@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Ederson Santana de Moraes	0	0
+Kyle Walker	0	1
+Raphaël Varane	0	0
+Niklas Süle	2	0
+Vitaliy Mykolenko	0	1
+Pierre-Emile Højbjerg	1	0
+Joshua Kimmich	1	1
+Jamal Musiala	2	0
+Marcus Rashford	10	10
+Harry Kane	4	1
+Jadon Sancho	3	7
+Wojciech Szczęsny	0	0
+Milan Škriniar	0	0
+João Cancelo	1	1
+Phil Foden	0	3
+Donny van de Beek	2	2
+Riyad Mahrez	9	3
+Raheem Sterling	1	0
+Kingsley Coman	0	0
