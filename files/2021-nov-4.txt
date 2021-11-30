@@ -1,0 +1,21 @@
+Player Name	Goals	Assist
+Oliver Kahn	0	0
+Cafu	0	2
+Mats Hummels	0	0
+Matthijs de Ligt	0	0
+Roberto Carlos	0	0
+Nicolò Barella	0	1
+Andrés Iniesta	3	5
+Luis Alberto	0	1
+Bernardo Silva	1	0
+Michael Owen	11	3
+Jack Grealish	3	3
+Mike Maignan	0	0
+William Saliba	0	0
+Piotr Zieliński	0	0
+İlkay Gündoğan	1	0
+Moussa Diaby	6	0
+Adama Traoré	1	6
+André Silva	0	3
+Gareth Bale	3	0
+Toni Kroos	0	3
