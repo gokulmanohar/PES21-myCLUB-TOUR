@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Dominik Livaković	0	0
+Raphaël Varane	1	0
+José María Giménez	1	0
+Paolo Maldini	0	0
+Eden Hazard	3	1
+Mesut Özil	1	3
+Patrick Vieira	2	2
+Donny van de Beek	3	3
+Federico Bernardeschi	0	1
+Alvaro Morata	10	6
+Timo Werner	15	8
+Nick Pope	0	0
+Jules Koundé	0	1
+Remo Freuler	0	1
+Arthur Melo	1	3
+Robin Gosens	0	2
+Hans Hateboer	0	2
+Jamie Vardy	4	3
