@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Thibaut Courtois	0	0
+Héctor Bellerín	0	0
+Kalidou Koulibaly	0	0
+Milan Škriniar	0	0
+Alphonso Davies	1	2
+Scott McTominay	0	1
+Casemiro	0	1
+Kevin De Bruyne	1	2
+Lionel Messi	8	4
+Gonzalo Higuaín	1	1
+Cristiano Ronaldo	13	2
+Jordan Pickford	0	0
+Franz Beckenbauer	0	0
+Nemanja Matić	0	0
+Weston McKennie	1	1
+Vini Jr.	2	3
+Kingsley Coman	1	0
+Gabriel Jesus	2	1
+Pavel Nedvěd	0	0

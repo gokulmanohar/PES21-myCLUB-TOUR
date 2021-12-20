@@ -1,0 +1,19 @@
+Player Name	Goals	Assist
+Iker Casillas	0	0
+Dani Alves	0	1
+José María Giménez	0	1
+Niklas Süle	0	0
+Jordi Alba	0	1
+Patrick Vieira	2	1
+Marco Verratti	0	0
+Jordan Henderson	0	0
+Ronaldinho	5	2
+Kylian Mbappé	5	3
+Erling Haaland	7	2
+Dean Henderson	0	0
+Presnel Kimpembe	0	1
+Aaron Ramsey	0	0
+Marcelo Brozović	1	0
+Marcos Llorente	0	0
+Moise Kean	0	1
+Edinson Cavani	2	4
