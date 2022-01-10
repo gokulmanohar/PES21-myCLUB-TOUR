@@ -15,5 +15,6 @@
         "xlrd",
         "xticks",
         "ylabel"
-    ]
+    ],
+    "python.formatting.provider": "autopep8"
 }

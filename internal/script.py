@@ -23,7 +23,7 @@ class GlobalVariables:
     totalAssists = 0
     statObjectsList = []
     completePlayerStats = []
-    tour = type
+    tour = None
     dictFilename = ""
     txtFilename = ""
     pathDelimiter = "../"
@@ -35,7 +35,7 @@ class GlobalVariables:
     HM_PlayerDataDict = {}
     NS_PlayerDataDict = {}
     TZ_PlayerDataDict = {}
-    script_helper = type
+    script_helper = None
     Search_Number = 0
 
 
@@ -418,8 +418,8 @@ def main():
         plt.rcdefaults()
         plt.bar(x_pos, y_pos, align='center', alpha=0.5)
         plt.xticks(x_pos, key_lists)
-        plt_title = GlobalVariables.script_helper.get_year(
-            GlobalVariables.txtFilename) + " " + GlobalVariables.script_helper.getQuarter(GlobalVariables.txtFilename)
+        plt_title = str(GlobalVariables.dictFilename).split(
+            '_')[1] + " " + str(GlobalVariables.dictFilename).split('_')[2]
         plt.title(plt_title)
         plt.ylabel('Number of goals')
         plt.xlabel('Tour event')
