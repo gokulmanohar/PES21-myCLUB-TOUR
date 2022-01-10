@@ -30,10 +30,10 @@ def month_name_abbreviation(file_name):
     file_name_char_list = []
     file_name_split = file_name.split(".")[0]
     month_name_abbrev = ""
-    for ch in file_name_split:
-        if ch.isalpha():
-            file_name_char_list.append(ch)
-    month_name_abbrev = "".join(file_name_char_list)
+    file_name_split = str(file_name.split(".")[0])
+    global year_in_filename
+    year_in_filename = file_name_split.split('-')[0]
+    month_name_abbrev = file_name_split.split('-')[1]
     month_name_abbrev = month_name_abbrev.title()
     return (month_abbrev_dict[month_name_abbrev])
 
@@ -63,7 +63,7 @@ def getQuarter(file_name):
 # TO GET THE RELEVANT TOUR DICTIONARY
 def get_working_dict(filename):
     quarterName = getQuarter(filename)
-    year = now.year
+    year = year_in_filename
     if year == 2020 and quarterName == "Q4":
         return tour_2020_Q4, "tour_2020_Q4"
     if year == 2021 and filename.startswith("dec"):
@@ -79,25 +79,25 @@ def get_working_dict(filename):
 
 
 # TO GET THE LAST 2 DIGITS OF A YEAR
-def get_year_suffix(filename):
-    year = now.year
-    if year == 2020:
-        return "20"
-    if year == 2021 and filename.startswith("dec"):
-        return "20"
-    if year == 2021:
-        return "21"
+# def get_year_suffix(filename):
+#     year = now.year
+#     if year == 2020:
+#         return "20"
+#     if year == 2021 and filename.startswith("dec"):
+#         return "20"
+#     if year == 2021:
+#         return "21"
 
 
 # TO GET THE PRESENT YEAR
-def get_year(filename):
-    year = now.year
-    if year == 2020:
-        return "2020"
-    if year == 2021 and filename.startswith("dec"):
-        return "2020"
-    if year == 2021:
-        return "2021"
+# def get_year(filename):
+#     year = now.year
+#     if year == 2020:
+#         return "2020"
+#     if year == 2021 and filename.startswith("dec"):
+#         return "2020"
+#     if year == 2021:
+#         return "2021"
 
 
 # PRELOAD
@@ -108,29 +108,34 @@ try:
 except FileNotFoundError:
     pathDelimiter = "../"
 try:
-    with open(pathDelimiter+"internal/tour_2020_Q4.json", mode="r", encoding="utf8") as input_json:   
-        try: 
-            tour_2020_Q4 = read_from_json(pathDelimiter+"internal/tour_2020_Q4.json")
+    with open(pathDelimiter+"internal/tour_2020_Q4.json", mode="r", encoding="utf8") as input_json:
+        try:
+            tour_2020_Q4 = read_from_json(
+                pathDelimiter+"internal/tour_2020_Q4.json")
         except:
             tour_2020_Q4 = {}
-    with open(pathDelimiter+"internal/tour_2021_Q1.json", mode="r", encoding="utf8") as input_json:   
-        try: 
-            tour_2021_Q1 = read_from_json(pathDelimiter+"internal/tour_2021_Q1.json")
+    with open(pathDelimiter+"internal/tour_2021_Q1.json", mode="r", encoding="utf8") as input_json:
+        try:
+            tour_2021_Q1 = read_from_json(
+                pathDelimiter+"internal/tour_2021_Q1.json")
         except:
             tour_2021_Q1 = {}
-    with open(pathDelimiter+"internal/tour_2021_Q2.json", mode="r", encoding="utf8") as input_json:   
-        try: 
-            tour_2021_Q2 = read_from_json(pathDelimiter+"internal/tour_2021_Q2.json")
+    with open(pathDelimiter+"internal/tour_2021_Q2.json", mode="r", encoding="utf8") as input_json:
+        try:
+            tour_2021_Q2 = read_from_json(
+                pathDelimiter+"internal/tour_2021_Q2.json")
         except:
             tour_2021_Q2 = {}
-    with open(pathDelimiter+"internal/tour_2021_Q3.json", mode="r", encoding="utf8") as input_json:   
-        try: 
-            tour_2021_Q3 = read_from_json(pathDelimiter+"internal/tour_2021_Q3.json")
+    with open(pathDelimiter+"internal/tour_2021_Q3.json", mode="r", encoding="utf8") as input_json:
+        try:
+            tour_2021_Q3 = read_from_json(
+                pathDelimiter+"internal/tour_2021_Q3.json")
         except:
             tour_2021_Q3 = {}
-    with open(pathDelimiter+"internal/tour_2021_Q4.json", mode="r", encoding="utf8") as input_json:   
-        try: 
-            tour_2021_Q4 = read_from_json(pathDelimiter+"internal/tour_2021_Q4.json")
+    with open(pathDelimiter+"internal/tour_2021_Q4.json", mode="r", encoding="utf8") as input_json:
+        try:
+            tour_2021_Q4 = read_from_json(
+                pathDelimiter+"internal/tour_2021_Q4.json")
         except:
             tour_2021_Q4 = {}
 except:
@@ -144,4 +149,3 @@ except:
         tour_2021_Q3 = {}
     with open(pathDelimiter+"internal/tour_2021_Q4.json", mode="w+", encoding="utf8"):
         tour_2021_Q4 = {}
-

@@ -23,7 +23,7 @@ class GlobalVariables:
     totalAssists = 0
     statObjectsList = []
     completePlayerStats = []
-    tour = type
+    tour = None
     dictFilename = ""
     txtFilename = ""
     pathDelimiter = "../"
@@ -35,7 +35,7 @@ class GlobalVariables:
     HM_PlayerDataDict = {}
     NS_PlayerDataDict = {}
     TZ_PlayerDataDict = {}
-    script_helper = type
+    script_helper = None
     Search_Number = 0
 
 

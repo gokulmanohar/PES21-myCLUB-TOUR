@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            // "name": "Python: Current File",
-            "name": "Python: script.py",
+            "name": "Python: Current File",
+            // "name": "Python: script.py",
             "type": "python",
             "request": "launch",
-            // "program": "${file}",
-            "program": "internal/script.py",
+            "program": "${file}",
+            // "program": "internal/script.py",
             "console": "integratedTerminal"
         }
     ]
