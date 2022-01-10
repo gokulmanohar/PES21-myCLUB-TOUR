@@ -76,95 +76,11 @@ def get_working_dict(filename):
             tour_dict_file = json.load(json_file)
     except json.decoder.JSONDecodeError:
         tour_dict_file = {}
-    return(tour_dict_file, tour_dict_file_name)
-
-    # if year == 2020 and quarterName == "Q4":
-    #     return tour_2020_Q4, "tour_2020_Q4"
-    # if year == 2021 and filename.startswith("dec"):
-    #     return tour_2020_Q4, "tour_2020_Q4"
-    # if year == 2021 and quarterName == "Q1":
-    #     return tour_2021_Q1, "tour_2021_Q1"
-    # if year == 2021 and quarterName == "Q2":
-    #     return tour_2021_Q2, "tour_2021_Q2"
-    # if year == 2021 and quarterName == "Q3":
-    #     return tour_2021_Q3, "tour_2021_Q3"
-    # if year == 2021 and quarterName == "Q4":
-    #     return tour_2021_Q4, "tour_2021_Q4"
+    return(tour_dict_file, tour_dict_file_name) # eg: tour_2020_Q4, 'tour_2020_Q4'
 
 
-# TO GET THE LAST 2 DIGITS OF A YEAR
-# def get_year_suffix(filename):
-#     year = now.year
-#     if year == 2020:
-#         return "20"
-#     if year == 2021 and filename.startswith("dec"):
-#         return "20"
-#     if year == 2021:
-#         return "21"
-
-
-# TO GET THE PRESENT YEAR
-# def get_year(filename):
-#     year = now.year
-#     if year == 2020:
-#         return "2020"
-#     if year == 2021 and filename.startswith("dec"):
-#         return "2020"
-#     if year == 2021:
-#         return "2021"
-
-
-# PRELOAD
-# pathDelimiter = "./"
-# try:
-#     os.listdir('internal')
-# except FileNotFoundError:
-#     pathDelimiter = "../"
-
-# try:
-#     with open(pathDelimiter+"internal/tour_2020_Q4.json", mode="r", encoding="utf8") as input_json:
-#         try:
-#             tour_2020_Q4 = read_from_json(
-#                 pathDelimiter+"internal/tour_2020_Q4.json")
-#         except:
-#             tour_2020_Q4 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q1.json", mode="r", encoding="utf8") as input_json:
-#         try:
-#             tour_2021_Q1 = read_from_json(
-#                 pathDelimiter+"internal/tour_2021_Q1.json")
-#         except:
-#             tour_2021_Q1 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q2.json", mode="r", encoding="utf8") as input_json:
-#         try:
-#             tour_2021_Q2 = read_from_json(
-#                 pathDelimiter+"internal/tour_2021_Q2.json")
-#         except:
-#             tour_2021_Q2 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q3.json", mode="r", encoding="utf8") as input_json:
-#         try:
-#             tour_2021_Q3 = read_from_json(
-#                 pathDelimiter+"internal/tour_2021_Q3.json")
-#         except:
-#             tour_2021_Q3 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q4.json", mode="r", encoding="utf8") as input_json:
-#         try:
-#             tour_2021_Q4 = read_from_json(
-#                 pathDelimiter+"internal/tour_2021_Q4.json")
-#         except:
-#             tour_2021_Q4 = {}
-# except:
-#     with open(pathDelimiter+"internal/tour_2020_Q4.json", mode="w+", encoding="utf8"):
-#         tour_2020_Q4 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q1.json", mode="w+", encoding="utf8"):
-#         tour_2021_Q1 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q2.json", mode="w+", encoding="utf8"):
-#         tour_2021_Q2 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q3.json", mode="w+", encoding="utf8"):
-#         tour_2021_Q3 = {}
-#     with open(pathDelimiter+"internal/tour_2021_Q4.json", mode="w+", encoding="utf8"):
-#         tour_2021_Q4 = {}
-
-if __name__ == "__main__":
-    dct, dct_name = get_working_dict('2021-dec-4.txt')
-    print('------- ' + dct_name + ' -------')
-    print(dct)
+# MAIN
+# if __name__ == "__main__":
+#     dct, dct_name = get_working_dict('2021-dec-4.txt')
+#     print('------- ' + dct_name + ' -------')
+#     print(dct)
