@@ -1,0 +1,20 @@
+Player Name	Goals	Assist
+Marc-André ter Stegen	0	0
+Franz Beckenbauer	0	2
+Kalidou Koulibaly	0	0
+Presnel Kimpembe	0	0
+Park Ji-sung	1	2
+Miralem Pjanić	3	2
+Luka Modrić	2	0
+Angel Correa	2	3
+Riyad Mahrez	4	4
+Romelu Lukaku	7	5
+Cristiano Ronaldo	8	3
+David de Gea	0	0
+Davinson Sánchez	0	0
+Thiago Alcântara	0	1
+Andrés Iniesta	3	1
+Nemanja Matić	0	0
+Rodrygo	2	7
+Lautaro Martínez	1	0
+Vini Jr.	0	0
