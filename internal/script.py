@@ -14,7 +14,10 @@ import webbrowser
 from wikipedia import wikipedia
 import colorama
 from termcolor import cprint
-from win10toast import ToastNotifier
+try:
+    from win10toast import ToastNotifier
+except Exception as win10toast_import_error:
+    print(win10toast_import_error)
 
 
 # CLASS CONTANING GLOBAL VARIABLES
@@ -435,8 +438,11 @@ def main():
         figure.set_size_inches(screen_width/100, screen_height/100)
         plt.savefig(plt_graph_filepath, format='JPEG')
         mng = plt.get_current_fig_manager()
-        mng.window.state("zoomed")
-        plt.show()
+        try:
+            mng.window.state("zoomed")
+            plt.show()
+        except Exception as graph_show_error:
+            print(graph_show_error)
         root.destroy()
         print("\nGraph saved at", plt_graph_filepath)
 
