@@ -3,3 +3,6 @@
 3-Clear-Records.bat
 internal/__pycache__/
 *.pyc
+1-Run.sh
+2-Analysis.sh
+3-Clear-Records.sh
