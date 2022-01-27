@@ -419,6 +419,7 @@ def main():
         x_pos = np.arange(len(key_lists))
         y_pos = value_lists
         plt.rcdefaults()
+        plt.rcParams['font.size'] = '16'
         plt.bar(x_pos, y_pos, align='center', alpha=0.5)
         plt.xticks(x_pos, key_lists)
         plt_title = str(GlobalVariables.dictFilename).split(
@@ -427,7 +428,8 @@ def main():
         plt.ylabel('Number of goals')
         plt.xlabel('Tour event')
         for i, v in enumerate(y_pos):
-            plt.text(x=i, y=v+1, s=str(v))
+            plt.text(x=i, y=v, s=str(v), horizontalalignment='center',
+                verticalalignment='bottom')
         plt_graph_filepath = GlobalVariables.pathDelimiter + \
             "statistics/" + plt_title + ".jpg"
         root = Tk()
@@ -437,12 +439,6 @@ def main():
         figure = plt.gcf()
         figure.set_size_inches(screen_width/100, screen_height/100)
         plt.savefig(plt_graph_filepath, format='JPEG')
-        mng = plt.get_current_fig_manager()
-        try:
-            mng.window.state("zoomed")
-            plt.show()
-        except Exception as graph_show_error:
-            print(graph_show_error)
         root.destroy()
         print("\nGraph saved at", plt_graph_filepath)
 
