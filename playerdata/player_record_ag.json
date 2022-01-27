@@ -145,11 +145,11 @@
     ],
     "Alphonso Davies": [
         2,
-        14,
+        15,
         [
-            0.18,
-            1.27,
-            11
+            0.17,
+            1.25,
+            12
         ]
     ],
     "Alvaro Morata": [
@@ -252,12 +252,12 @@
         ]
     ],
     "Antoine Griezmann": [
-        2,
-        3,
+        5,
+        9,
         [
-            1.0,
-            1.5,
-            2
+            1.67,
+            3.0,
+            3
         ]
     ],
     "Aritz Elustondo": [
@@ -339,6 +339,15 @@
             0.0,
             0.0,
             2
+        ]
+    ],
+    "Borja Mayoral": [
+        8,
+        1,
+        [
+            8,
+            1,
+            1
         ]
     ],
     "Boubacar Kamara": [
@@ -792,12 +801,12 @@
         ]
     ],
     "Federico Bernardeschi": [
-        5,
-        6,
+        7,
+        7,
         [
-            1.25,
-            1.5,
-            4
+            1.4,
+            1.4,
+            5
         ]
     ],
     "Federico Chiesa": [
@@ -995,7 +1004,7 @@
         [
             0.0,
             0.0,
-            4
+            5
         ]
     ],
     "Gianluigi Donnarumma": [
