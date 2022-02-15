@@ -1,4 +1,5 @@
 # IMPORTS
+from statistics import mode
 from tkinter.filedialog import askopenfilename
 from tkinter import Tk
 import json
@@ -362,6 +363,12 @@ def main():
     print("Total Goals:", GlobalVariables.totalGoals,
           "\tTotal Assists:", GlobalVariables.totalAssists)
 
+    # SAVING % INVOLVEMENT DATA IN A SEPARATE TXT FILE
+    with open(GlobalVariables.pathDelimiter+"internal/testing/percentage-involvement.txt", mode="w+", encoding="utf8") as percentage_involvement_txt_file:
+        for i in table:
+            # print("\n% Involvement: {}".format(i[3]))
+            percentage_involvement_txt_file.write(str(i[3])+"\n")
+
     # DISPLAYING MVP NAME AND SHOWING WINDOWS 10 TOAST
     print("\nMVP: ", end='')
     try:
@@ -429,7 +436,7 @@ def main():
         plt.xlabel('Tour event')
         for i, v in enumerate(y_pos):
             plt.text(x=i, y=v, s=str(v), horizontalalignment='center',
-                verticalalignment='bottom')
+                     verticalalignment='bottom')
         plt_graph_filepath = GlobalVariables.pathDelimiter + \
             "statistics/" + plt_title + ".jpg"
         root = Tk()
