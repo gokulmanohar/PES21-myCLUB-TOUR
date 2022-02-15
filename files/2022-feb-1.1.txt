@@ -1,0 +1,19 @@
+Player Name	Goals	Assists
+Manuel Neuer	0	0
+Trent Alexander-Arnold	1	3
+Sergio Ramos	0	0
+Presnel Kimpembe	0	0
+Marcos Acuña	0	0
+Elif Elmas	0	1
+Casemiro	1	1
+Toni Kroos	1	1
+Federico Chiesa	3	5
+Harry Kane	10	0
+Sadio Mané	4	6
+Alexander Nübel	0	0
+João Victor	0	0
+Scott McTominay	0	1
+Koke	0	1
+Jack Grealish	0	1
+Hulk	4	1
+Pierre-Emerick Aubameyang	3	0
