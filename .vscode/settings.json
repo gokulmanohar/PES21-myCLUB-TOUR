@@ -11,6 +11,7 @@
         "tablefmt",
         "tfilename",
         "tqdm",
+        "winfo",
         "xlabel",
         "xlrd",
         "xticks",
