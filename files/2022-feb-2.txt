@@ -1,0 +1,20 @@
+Player Name	Goals	Assists
+Péter Gulácsi	0	0
+Danilo	1	2
+Franz Beckenbauer	0	0
+Carles Puyol	0	0
+Alex Sandro	0	0
+Xavi	1	2
+Lothar Matthäus	2	1
+Jadon Sancho	1	2
+Thorgan Hazard	0	2
+Olivier Giroud	4	0
+Lautaro Martínez	2	3
+Wuilker Faríñez	0	0
+José María Giménez	0	0
+Eduardo Camavinga	0	0
+Leon Goretzka	0	0
+Robin Gosens	0	0
+Juan Cuadrado	0	0
+Darwin Núñez	3	0
+Gonzalo Higuaín	2	0
