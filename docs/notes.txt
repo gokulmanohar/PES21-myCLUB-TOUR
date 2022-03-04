@@ -1,0 +1,29 @@
+// Linux Shell Script command (1-Run.sh)
+
+#! /bin/bash
+cd ./internal
+/home/$USER/Codes/Python/env/bin/python3 ./analysis.py
+
+-----------------------------------------------
+
+// Windows Batch Scrip command (1-Run.bat)
+
+@echo off
+set "newDir=%~dp0internal"
+cd %newDir%
+"E:\Codes\Python\virtualenvironment\Scripts\python.exe" "%~dp0\internal\script.py"
+pause
+
+-----------------------------------------------
+
+// Remove windows formatted spaces from .sh
+
+sed -i -e 's/\r$//' ./file.sh
+
+-----------------------------------------------
+
+// Creating Virtual Environment
+
+https://docs.python.org/3/library/venv.html
+
+-----------------------------------------------
