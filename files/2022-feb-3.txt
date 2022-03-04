@@ -1,0 +1,19 @@
+Player Name	Goals	Assists
+Jan Oblak	0	0
+João Cancelo	0	0
+Virgil van Dijk	0	0
+Rúben Dias	0	0
+Alphonso Davies	0	1
+Pavel Nedvěd	1	3
+Paul Scholes	2	0
+Andrea Pirlo	1	1
+Lionel Messi	2	2
+Harry Kane	5	2
+Robert Lewandowski	4	1
+Gianluigi Buffon	0	0
+Gabriel dos Santos Magalhães	0	0
+Miralem Pjanić	0	0
+Saúl Ñíguez	0	1
+Henry Onyekuru	0	0
+Kingsley Coman	0	0
+Edinson Cavani	0	0
