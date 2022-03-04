@@ -73,6 +73,7 @@ pip install wikipedia
 pip install win10toast
 ```
 
+For more info see [notes.txt](https://github.com/gokulmanohar/PES21-myCLUB-TOUR/blob/main/docs/notes.txt)  
 
 Code Developed by:  
 [Gokul Manohar](https://github.com/gokulmanohar)
