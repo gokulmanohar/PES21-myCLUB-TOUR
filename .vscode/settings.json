@@ -11,6 +11,7 @@
         "tablefmt",
         "tfilename",
         "tqdm",
+        "virtualenvironment",
         "winfo",
         "xlabel",
         "xlrd",
