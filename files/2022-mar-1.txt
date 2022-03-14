@@ -1,0 +1,19 @@
+Player Name	Goals	Assists
+Manuel Neuer	0	0
+Dani Alves	0	2
+Thiago Silva	0	0
+Alessio Romagnoli	1	1
+Alphonso Davies	0	2
+Nemanja Matić	1	1
+Rodri	1	2
+Bruno Fernandes	7	9
+Riyad Mahrez	3	3
+Johan Cruyff	11	11
+Vini Jr.	1	0
+David de Gea	0	0
+Duje Ćaleta-Car	0	0
+Miralem Pjanić	1	1
+Martin Hongla	0	0
+Wilfried Zaha	12	6
+Arjen Robben	4	2
+Dennis Bergkamp	3	1
