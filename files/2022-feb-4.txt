@@ -1,0 +1,19 @@
+Player Name	Goals	Assists
+Wojciech Szczęsny	0	0
+Danilo	0	1
+Leonardo Bonucci	1	0
+Matthijs de Ligt	0	0
+Mattia De Sciglio	0	0
+Manuel Locatelli	1	1
+Arthur Melo	1	1
+Juan Cuadrado	0	4
+Paulo Dybala	0	6
+Federico Chiesa	0	3
+Dušan Vlahović	12	0
+Mattia Perin	0	0
+Giorgio Chiellini	0	0
+Denis Zakaria	0	0
+Weston McKennie	0	0
+Moi Gómez	4	2
+Federico Bernardeschi	1	1
+Moise Kean	4	1
