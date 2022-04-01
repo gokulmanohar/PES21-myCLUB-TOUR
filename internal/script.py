@@ -453,7 +453,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nExecution halted due to Keyboard Interrupt")
 
 
 # Code developed by
