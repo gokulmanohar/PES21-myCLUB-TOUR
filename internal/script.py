@@ -18,7 +18,7 @@ from termcolor import cprint
 try:
     from win10toast import ToastNotifier
 except Exception as win10toast_import_error:
-    print(win10toast_import_error)
+    print("Warning: {}" .format(win10toast_import_error))
 
 
 # CLASS CONTANING GLOBAL VARIABLES
