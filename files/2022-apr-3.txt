@@ -1,0 +1,21 @@
+Player Name	Goals	Assists
+Petr Čech	0	0
+Kyle Walker	0	3
+Carles Puyol	0	0
+Virgil van Dijk	1	0
+Kalidou Koulibaly	0	0
+Bixente Lizarazu	0	1
+Luka Modrić	0	2
+Joshua Kimmich	1	0
+Kevin De Bruyne	4	7
+Fernando Morientes	15	8
+Fernando Torres	11	6
+Iker Casillas	0	0
+Davinson Sánchez	0	0
+Cristian Romero	0	0
+Alex Král	0	4
+Marcelo Brozović	1	1
+Ivan Oblyakov	0	3
+Donyell Malen	6	1
+Patrick Vieira	2	1
+Nikola Milenković	0	0
