@@ -1,0 +1,19 @@
+Player Name	Goals	Assists
+David de Gea	0	0
+Danilo	0	1
+Matthijs de Ligt	1	0
+Sol Campbell	0	0
+Alphonso Davies	0	1
+Pedri	0	2
+Andrea Pirlo	2	5
+Phil Foden	0	2
+Riyad Mahrez	6	7
+Gabriel Jesus	9	3
+Raheem Sterling	8	1
+Dean Henderson	0	0
+João Victor	0	0
+Nicolò Barella	0	1
+N'Golo Kanté	0	0
+Diogo Jota	0	1
+Mohamed Salah	0	1
+Robert Lewandowski	8	2
